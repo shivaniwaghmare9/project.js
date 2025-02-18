@@ -19,7 +19,7 @@ let errcorpass=document.querySelector("#conpasserror")
 if(inpname==""){
     errname.innerHTML="Please Enter Name"
     let naminput=document.querySelector("#nameinput")
-      naminput.style.border="1px solid red"
+      naminput.style.border="1px solid black"
       errname.style.color="red"
     return false;
 }
@@ -27,7 +27,7 @@ if(inpnumber==""){
   errname.innerHTML=""
    errnumber.innerHTML="Please Enter Number"
    let numinput=document.querySelector("#numberinput")
-    numinput.style.border="1px solid red"
+    numinput.style.border="1px solid black"
   errnumber.style.color="red"
     return false;
 }
@@ -35,7 +35,7 @@ if(inpemail==""){
   errnumber.innerHTML=""
    erremail.innerHTML="Please Enter E-mail"
   let mailinput=document.querySelector("#emailinput")
-  mailinput.style.border="1px solid red"
+  mailinput.style.border="1px solid black"
   erremail.style.color="red"
    return false;
 }
@@ -43,7 +43,7 @@ if(inppassword==""){
   erremail.innerHTML=""
   errpassword.innerHTML="Please Enter Password"
  let passinput=document.querySelector("#inputpassword")
-      passinput.style.border="1px solid red"
+      passinput.style.border="1px solid black"
   errpassword.style.color="red"
    return false;
 }
@@ -52,7 +52,7 @@ if(inpcorpass==""){
   errpassword.innerHTML=""
   errcorpass.innerHTML="Please Enter Confirm Password"
   let coninput=document.querySelector("#confirmpassinput")
-  coninput.style.border="1px solid red"
+  coninput.style.border="1px solid black"
   errcorpass.style.color="red"
   return false;
 }
@@ -88,6 +88,17 @@ else if(isNaN(inpnumber)){
   errpassword.style.color="red"
   return false;
 }
+
+    localStorage.setItem("name",inpname)
+    localStorage.setItem("number",inpnumber)
+    localStorage.setItem("email",inpemail)
+    localStorage.setItem("pass",inppassword)
+    localStorage.setItem("password",inpcorpass)
+    
+     location.href="./pro.login/index.html"
+     return false;
+
+
 
 
 
