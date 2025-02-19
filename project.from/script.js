@@ -83,11 +83,11 @@ else if(isNaN(inpnumber)){
     return false;
  }
 
- else if(!(inppassword.match([/123456789/])  && inppassword.match([/!@#$%^&*><.,/])&& inppassword.match([/a-z/]))){
-  errpassword.innerHTML="Please Enter Strong Password Write dots,symbols,number,alpha"
-  errpassword.style.color="red"
-  return false;
-}
+//  else if(!(inppassword.match([/123456789/])  && inppassword.match([/!@#$%^&*><.,/])&& inppassword.match([/a-z/]))){
+//   errpassword.innerHTML="Please Enter Strong Password Write dots,symbols,number,alpha"
+//   errpassword.style.color="red"
+//   return false;
+// }
 
     localStorage.setItem("name",inpname)
     localStorage.setItem("number",inpnumber)
