@@ -2,8 +2,8 @@
 
 let sub=()=>{
 
-    let inpmail=document.querySelector("#email").value
-    let inppassword=document.querySelector("#pass").value
+    let inpmail=document.querySelector("#mail").value
+    let inppassword=document.querySelector("#password").value
    
     // let erremail=document.querySelector("#emailerror")
     // let errpassword=document.querySelector("#passerror")
@@ -32,14 +32,14 @@ let sub=()=>{
     //   }
 
 
-     let localemail= localStorage.getItem("email",inppassword)
+     let localemail= localStorage.getItem("email",inpmail)
       let localpass=localStorage.getItem("pass",inppassword)
 
       if(inpmail==localemail && inppassword==localpass){
         location.href="index.html"
     }
     else {
-        alert("invalid username or password")
+        alert("invalid Email or password")
        // errorpass.innerHTML="invalid "
 }
     return false;

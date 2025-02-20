@@ -1,34 +1,155 @@
+
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: cursive;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: "Lobster", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    /* overflow-x: hidden; */
 }
 
- #top{
-    width: 100%;
-    height: 100vh;
-    border: 2px solid black;
-    background: linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142));
+#container{
     display: flex;
-    justify-content: space-between;
-    background-image: url(photocar.avif);
-    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(66, 63, 63);
+    padding: 0.5rem;
+    position: absolute;
+    background: transparent;
+    z-index: 2;
+    
 }
-#top nav ul {
+
+#container img{
+    height: 2.5rem;
+}
+#container h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 170px;
+    height: 60px;
+    border: 5px solid rgb(0, 5, 7);
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px; 
+    padding-top: 5px;
+    font-size: 30px;
+    color: rgb(19, 18, 16);
+   
+}
+#container h2:hover{
+    color: aliceblue;
+}
+#container h2 span{
+    color: aliceblue;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#container h2 span:hover{
+    color: rgb(10, 10, 8);
+}
+
+
+#container  ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-size: 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+  
 }
-#top  a{
+#container  a{
     text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-family: "Lobster", serif;
 }
-#top li{
+#container li{
     list-style: none;
 }
-#top a:hover{
+#container  a:hover{
     text-decoration: underline;
     color: aliceblue;
 }
+
+#container input{
+    /* outline: none; */
+    outline-color: #f70707;
+    border: none;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+/* ///--------------------------swiper-slider----------------------- */
+
+.swiper{
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#ret{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    position:absolute;
+    top: 13rem;
+    left: 8rem;
+    width: 40%;
+    color: rgb(247, 242, 242);
+    z-index: 5;
+    flex-direction: column;
+}
+#ret h2{
+    font-size: 4rem;
+    font-weight: 500;
+}
+#ret h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#ret a{
+    background-color: #9a1212d0;
+    padding: 10px 16px;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+}
+
+#ret a:hover{
+    background-color: #fff;
+    color: #f70707;
+}
+
+
+
+/* #box4{
+
+} */
+
+/* telt.js// */

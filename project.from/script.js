@@ -5,7 +5,7 @@ let sub=()=>{
 let inpname=document.querySelector("#nameinput").value
 let inpnumber=document.querySelector("#numberinput").value
 let inpemail=document.querySelector("#emailinput").value
-let inppassword=document.querySelector("#inputpassword").value
+let inppass=document.querySelector("#inputpassword").value
 let inpcorpass=document.querySelector("#confirmpassinput").value
 
 
@@ -39,7 +39,7 @@ if(inpemail==""){
   erremail.style.color="red"
    return false;
 }
-if(inppassword==""){
+if(inppass==""){
   erremail.innerHTML=""
   errpassword.innerHTML="Please Enter Password"
  let passinput=document.querySelector("#inputpassword")
@@ -56,7 +56,7 @@ if(inpcorpass==""){
   errcorpass.style.color="red"
   return false;
 }
-else if(inppassword!==inpcorpass){
+else if(inppass!==inpcorpass){
     
     errcorpass.innerHTML="password does not match please enter the correct password"
     errcorpass.style.color="brown"
@@ -92,10 +92,10 @@ else if(isNaN(inpnumber)){
     localStorage.setItem("name",inpname)
     localStorage.setItem("number",inpnumber)
     localStorage.setItem("email",inpemail)
-    localStorage.setItem("pass",inppassword)
+    localStorage.setItem("pass",inppass)
     localStorage.setItem("password",inpcorpass)
     
-     location.href="./pro.login/index.html"
+     location.href="/pro.login/index1.html"
      return false;
 
 
