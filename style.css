@@ -4,7 +4,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box; 
-    font-family: "Lobster", serif;
+    /* font-family: "Lobster", serif; */
+    font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
@@ -19,17 +20,12 @@
     height: 20vh;
     background-color: rgb(66, 63, 63);
     padding: 0.5rem;
-    /* position: absolute; */
     background: transparent;
-    /* z-index: 2; */
-    /* margin-bottom: 20px; */
-    
-   
 }
 
 #container img{
     height: 2.5rem;
-}
+}  
 #container h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
@@ -88,7 +84,7 @@
 
 
 
-/* ///--------------------------swiper-slider----------------------- */
+/* ///-------------------------============-swiper-slider========================----------------------- */
 
 .swiper{
     width: 100%;
@@ -152,17 +148,17 @@
 #ret button a{
    text-decoration: none;
    font-size: 1.6rem;
-   color: rgb(95, 36, 115);
+   color: rgb(25, 25, 26);
 } 
 #ret button:hover{
     background-color: #df0f0fa6;
 }
 #ret button a:hover{
-    color: #eee0e0;
+    color: #e3dbdb;
 }
 #ret .btn2{
     background-color: #f7070799;
-    color: #eee0e0;
+    color: #0f0e0e;
 }
 #aboutus{
     width: 100%;
@@ -170,12 +166,24 @@
     display: flex;
     margin-top: 20px;
 }
+.imgstack{
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
 .img1{
     margin-left: 40px;
     border-top-right-radius: 60px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border:5px inset black;
   
 }
 .img2{
@@ -183,17 +191,28 @@
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 60px;
-    /* position: absolute;
-    margin-top: 40px;
-    margin-right: 50px; */
-    
-    
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    border:5px outset black;
 }
- .aboutcontains{
-    display: flex;
+ 
+.aboutcontains{
+     display: flex; 
+     gap: 200px;
+}
+
+.aboutcontains div{
+    gap: 20px;
 }
 .content{
-margin-top: 20px;
+   margin-top: 20px;
+   width: 700px;
+   height: 500px;
 }
 .content h1 h2 h3{
     font-weight: 600;
@@ -201,6 +220,128 @@ margin-top: 20px;
 .content h1{
     font-size: 35px;
 }
+.content button{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: #e4d0d0ee;
+    border: none;
+    font-size: 1.9em;
+}
+.content button:hover{
+    background-color: #df0f0fbd;
+    
+}
+#services{
+  width: 100%;
+  height: 150vh;
+}
+#services h3 h1{
+    font-weight: 700;
+}
+#services h1{
+    font-size: 65px;
+}
+#services  p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+#services button{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    background-color: #e4d0d0ee;
+    border: none;
+    font-size: 1.9em;
+}
+#services button:hover{
+    background-color: #df0f0fbd;
+    color: #e3dbdb;
+    
+}
+.Servicecontent div{
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgba(167, 149, 149, 0.744);
+    border-top-right-radius: 60px;
+    border-top-left-radius: 20px;
+    background: #f1eeee;
+    flex-wrap: wrap;
+    
+}
+.Servicecontent{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+   
+}
+.Servicecontent img{
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.Servicecontent  p{
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.Servicecontent  h2{
+    margin-left: 20px;
+    font-size: 30px;
+}
+#fleets{
+    width: 100%;
+  height: 100vh;
+  font-weight: bold;
+}
+#fleets h3 h1{
+    font-weight: 700;
+}
+#fleets h1{
+    font-size: 65px;
+}
+.fleetcontent div{
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgba(167, 149, 149, 0.744);
+    border-top-right-radius: 60px;
+    border-top-left-radius: 20px;
+    background: #f1eeee;
+    flex-wrap: wrap;
+    
+}
+.fleetcontent{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+   
+}
+.fleetcontent img{
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.Servicecontent  p{
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.Servicecontent  h2{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
 
 /* #box4{
 
