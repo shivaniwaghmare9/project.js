@@ -95,11 +95,29 @@ else if(isNaN(inpnumber)){
     localStorage.setItem("pass",inppass)
     localStorage.setItem("password",inpcorpass)
     
-     location.href="/pro.login/index1.html"
+     location.href="login.html"
      return false;
+}
 
+let login=()=>{
 
+  let inpmail=document.querySelector("#mail").value
+  let inppassword=document.querySelector("#password").value
+ 
+  let localemail= localStorage.getItem("email",inpmail)
+  let localpass=localStorage.getItem("pass",inppassword)
 
+  if(inpmail==localemail && inppassword==localpass){
+    location.href="index.html";
+    return false;
+}
+else {
+  
+    alert("invalid Email or password")
+   // errorpass.innerHTML="invalid "
+}
+return false;
 
-
+  
+  
 }
