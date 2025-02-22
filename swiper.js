@@ -11,7 +11,7 @@
    
 // })
 
-let swiper = new Swiper(".swiper", {
+let swiper1 = new Swiper(".swiper1", {
     pagination: {
       el: ".swiper-pagination",
       dynamicBullets: true,
@@ -24,3 +24,12 @@ let swiper = new Swiper(".swiper", {
     //   delay:2000
     // }
   });
+
+  // var swiper1= new Swiper(".mySwiper", {
+  //   slidesPerView: 3,
+  //   spaceBetween: 30,
+  //   pagination: {
+  //     el: ".swiper1-pagination",
+  //     clickable: true,
+  //   },
+  // });

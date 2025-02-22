@@ -1,0 +1,10 @@
+
+
+var swiper2 = new Swiper(".swiper2", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });

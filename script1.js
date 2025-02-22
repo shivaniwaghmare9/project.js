@@ -1,7 +1,24 @@
 
+
+
+
+VANTA.WAVES({
+  el: "#logi",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x6db5d4,
+  waveHeight: 6.00,
+  waveSpeed: 0.50,
+  zoom: 1.37
+})
+
+
 let sub=()=>{
-
-
 let inpname=document.querySelector("#nameinput").value
 let inpnumber=document.querySelector("#numberinput").value
 let inpemail=document.querySelector("#emailinput").value

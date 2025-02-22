@@ -86,7 +86,7 @@
 
 /* ///-------------------------============-swiper-slider========================----------------------- */
 
-.swiper{
+.swiper1{
     width: 100%;
     height: 110vh;
 }
@@ -307,7 +307,7 @@
 #fleets h1{
     font-size: 65px;
 }
-.fleetcontent div{
+/* .fleetcontent div{
     width: 400px;
     height: 500px;
     border: 1px solid rgba(167, 149, 149, 0.744);
@@ -339,7 +339,35 @@
 .Servicecontent  h2{
     margin-left: 20px;
     font-size: 30px;
-}
+} */
+/*============================================second swiper=========================================*/
+
+  
+   .swiper {
+    width: 100%;
+    height: auto;
+  }
+   .slider{
+     text-align: center;
+     font-size: 18px;
+    background: #191717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 600px;
+    border: 1px solid rgba(167, 149, 149, 0.744);
+    border-top-right-radius: 60px;
+    border-top-left-radius: 20px;
+  } 
+
+/* .swiper-slide img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  } */
 
 
 
