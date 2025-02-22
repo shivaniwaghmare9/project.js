@@ -96,13 +96,14 @@ h2{
     outline: none;
     cursor: pointer;
     font-size: 1.7em;
-    color: black;
+    color:  aliceblue;;
     border-radius: 20px;
     font-weight: 500;
     box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
 }
 #insert input:hover{
     background: aliceblue;
+    color: black;
 }
 #register{
     font-size: .9em;

@@ -120,6 +120,7 @@
      width: 60%; 
      color: rgb(247, 242, 242);
      z-index: 3;
+     text-align: center;
 }
 #ret h1{
     font-size: 4rem;
@@ -165,6 +166,7 @@
     height: 100vh;
     display: flex;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .imgstack{
     position: relative;
@@ -256,7 +258,7 @@
     border-radius: 30px;
     background-color: #e4d0d0ee;
     border: none;
-    font-size: 1.9em;
+    font-size: 1.7em;
 }
 #services button:hover{
     background-color: #df0f0fbd;
@@ -280,7 +282,7 @@
     align-items: center;
     gap: 25px;
     flex-wrap: wrap;
-   
+    
 }
 .Servicecontent img{
     margin-top: 30px;
@@ -296,10 +298,14 @@
     margin-left: 20px;
     font-size: 30px;
 }
+
+   
 #fleets{
-    width: 100%;
-  height: 100vh;
+  width: 100%;
+  height: auto;
   font-weight: bold;
+  flex-wrap: wrap;
+  color: rgb(16, 18, 19);
 }
 #fleets h3 h1{
     font-weight: 700;
@@ -307,72 +313,49 @@
 #fleets h1{
     font-size: 65px;
 }
-/* .fleetcontent div{
-    width: 400px;
-    height: 500px;
-    border: 1px solid rgba(167, 149, 149, 0.744);
-    border-top-right-radius: 60px;
-    border-top-left-radius: 20px;
-    background: #f1eeee;
-    flex-wrap: wrap;
-    
-}
-.fleetcontent{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    flex-wrap: wrap;
-   
-}
-.fleetcontent img{
-    margin-top: 30px;
-    margin-left: 20px;
-    border-radius: 50%;
-}
-.Servicecontent  p{
-    margin-left: 20px;
-    font-size: 20px;
 
-}
-.Servicecontent  h2{
-    margin-left: 20px;
-    font-size: 30px;
-} */
+
 /*============================================second swiper=========================================*/
-
-  
-   .swiper {
+.swiper2 {
     width: 100%;
     height: auto;
-  }
-   .slider{
-     text-align: center;
-     font-size: 18px;
-    background: #191717;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+}
+.slider{
+    background: #f1eeee;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 400px;
-    height: 600px;
+    height: 650px;
     border: 1px solid rgba(167, 149, 149, 0.744);
     border-top-right-radius: 60px;
     border-top-left-radius: 20px;
-  } 
+    font-size: 20px;
+} 
+.slider img{
+    width: 355px;
+    height: 200px;
+}
+.slider button{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: #151414f3;
+    border: none;
+    font-size: 1.4em;
+    color: aliceblue;
+}
+.slider h3 img{
+    width: 45px;
+    height: 30px;
+    color: rgb(16, 15, 15);
+    margin-right: 25px;
+}
 
-/* .swiper-slide img {
-    display: block;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-  } */
 
 
 
-/* #box4{
 
-} */
-
-/* telt.js// */
