@@ -185,6 +185,7 @@
     position: relative;
     width: 400px;
     height: 500px;
+    /* border: 1px solid aliceblue; */
 }
 .img1{
     margin-left: 40px;
@@ -221,20 +222,16 @@
      display: flex; 
      gap: 200px;
 }
-
-.aboutcontains div{
-    gap: 20px;
-}
 .content{
-   margin-top: 20px;
-   width: 700px;
-   height: 500px;
+   width: 600px;
+   height: 520px;
+   /* border: 1px solid aliceblue; */
 }
 .content h1 h2 h3{
-    font-weight: 600;
+    font-weight: 500;
 }
 .content h1{
-    font-size: 35px;
+    font-size: 25px;
 }
 .content button{
     padding-top: 10px;
@@ -338,7 +335,6 @@
   height: auto;
   font-weight: bold;
   flex-wrap: wrap;
-  /* color: rgb(16, 18, 19); */
   background-color: #0f0e0e;
  
 }
@@ -350,9 +346,7 @@
     color: aliceblue;
     margin-bottom: 30px;
 }
-
-
-/*============================================second swiper=========================================*/
+                       /*============================================second swiper=========================================*/
 .swiper2 {
     width: 100%;
     height: auto;
@@ -361,7 +355,7 @@
 }
 .slider{
     background: #f1eeee;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     flex-direction: column;
     width: 400px;
@@ -369,8 +363,6 @@
     border: 1px solid rgba(167, 149, 149, 0.744);
     border-top-right-radius: 60px;
     border-top-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-    border-bottom-left-radius: 60px;
     font-size: 20px;
     border-top-width: 30px;
     border-bottom-width: 30px;
@@ -428,7 +420,7 @@
      /* box-shadow: 5px 5px 13px rgb(32, 32, 32),-5px -5px 13px rgb(30, 31, 31);  */
 }
 .boxes #textcontent{
-    width: 65%;
+    width: 60%;
     height: 75vh;
     /* border: 1px solid black; */
     border-top-right-radius: 60px;
@@ -441,7 +433,7 @@
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     margin-right: 20px;
     
 }
@@ -486,6 +478,37 @@ border-bottom-left-radius: 30px;
 #work{
     width: 100%;
     height: 100vh;
+    background: #0f0e0e;
+    display: flex;
+    color: aliceblue;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#work .book1{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid aliceblue; */
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 1em;
+}
+.book1 h1{
+    font-size: 40px;
+}
+#work .book2{
+    width: 40%; 
+    height: 100%;
+    /* border: 2px solid aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#work .book2 img{
+    border-radius: 40%;
+    height: 90%;
+    border:2px  double rgba(0, 217, 255, 0.402);
+    
 }
 
 

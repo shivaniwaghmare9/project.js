@@ -13,6 +13,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("./project.images/istockphotoblue4.jpg");
+    background-size: cover;
 }
 h2{
     margin-bottom: 7px;
@@ -29,8 +31,9 @@ h2{
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    background:  linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142));
+    /* background:  linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142)); */
     box-shadow: 5px 7px 10px rgb(76, 97, 117),-5px -7px 10px rgb(83, 108, 118);
+    background: transparent;
 }
 
 form input{

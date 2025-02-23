@@ -27,13 +27,37 @@
     change.innerHTML="<h1>LUXURY CAR</h1>"  
 
 }
-//    function img5(){
-//     let changeimg= document.querySelector("#box");
-//     changeimg.style.backgroundImage="none";
-//    }
-//    function img6(){
-//     let changeimg= document.querySelector("#box");
-//     changeimg.style.backgroundImage="none";
-//    }
-  
+
+
+let clickme=()=>{
+    let display1=document.querySelector("#show")
+    if(display1.style.display==='none'){
+        display1.style.display='block';
+     }
+     else{
+        display1.style.display='none';
+     }
+    
+}
+let clickme1=()=>{
+    let display3=document.querySelector("#show1")
+    if(display3.style.display==='none'){
+        display3.style.display='block';
+     }
+     else{
+        display3.style.display='none';
+     }
+    
+}
+let clickme2=()=>{
+    let display2=document.querySelector("#show2")
+    if(display2.style.display==='none'){
+        display2.style.display='block';
+     }
+     else{
+        display2.style.display='none';
+     }
+    
+}
+
 

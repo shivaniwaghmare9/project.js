@@ -8,7 +8,7 @@ let swiper1 = new Swiper(".swiper1", {
     },
     navigation:{
       nextEl:".swiper-button-next",
-      prevEl:".swiper-buuton-prev"
+      prevEl:".swiper-buuton-prev",
     }
     // autoplay:{
     //   delay:2000
