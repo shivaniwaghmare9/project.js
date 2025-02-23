@@ -1,11 +1,6 @@
 
 
 
-
-
-
-
-
 let sub=()=>{
 let inpname=document.querySelector("#nameinput").value
 let inpnumber=document.querySelector("#numberinput").value

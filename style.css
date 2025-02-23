@@ -9,9 +9,12 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+   
     /* overflow-x: hidden; */
+   
 }
-
+/*------------================================================================================================---*/
+/*------------==================================navbar section starts here===================================================-->*/
 #container{
     display: flex;
     justify-content: space-around;
@@ -21,6 +24,7 @@
     background-color: rgb(66, 63, 63);
     padding: 0.5rem;
     background: transparent;
+    background-color: #0f0e0e;
 }
 
 #container img{
@@ -32,12 +36,12 @@
     text-decoration: underline;
     width: 115px;
     height: 115px;
-    border: 5px dashed rgb(0, 5, 7);
+    border: 5px dashed rgb(229, 232, 234);
     border-radius: 50%;
     padding-left: 15px;
     padding-top: 10px;
     font-size: 30px;
-    color: rgb(19, 18, 16);
+    color: rgb(235, 233, 228);
    transition: all 3s ease-in-out;
 }
 #container h2:hover{
@@ -51,7 +55,7 @@
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #container h2 span:hover{
-    color: rgb(10, 10, 8);
+    color: rgb(236, 236, 227);
 }
 #container  ul {
     display: flex;
@@ -63,7 +67,7 @@
 }
 #container  a{
     text-decoration: none;
-    color: rgb(3, 3, 3);
+    color: rgb(240, 233, 233);
     font-family: "Lobster", serif;
 }
 #container li{
@@ -83,12 +87,14 @@
 }
 
 
-
+/*------------====================================navbar section end============================================================---*/
+/*------------==================================first section starts here===================================================-->*/
 /* ///-------------------------============-swiper-slider========================----------------------- */
 
 .swiper1{
     width: 100%;
-    height: 110vh;
+    height: 120vh;
+    background-color: #0f0e0e;
 }
 
 .swiper-slide{
@@ -96,7 +102,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 110vh;
+    height: auto;
     
 }
 .swiper-slide img {
@@ -106,8 +112,11 @@
     border-top-right-radius: 200px;
     border-bottom-right-radius: 90px;
     border-bottom-left-radius: 200px;
+    margin-bottom: 30px;
     
 }
+/*------------====================================first section end============================================================---*/
+/*------------==================================second section starts here===================================================-->*/
 
 #ret{
      display: flex;
@@ -161,12 +170,16 @@
     background-color: #f7070799;
     color: #0f0e0e;
 }
+/*------------====================================second section end============================================================---*/
+/*------------==================================third section starts here===================================================-->*/
 #aboutus{
     width: 100%;
     height: 100vh;
     display: flex;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     flex-wrap: wrap;
+    background-color: #0f0e0e;
+    color: aliceblue;
 }
 .imgstack{
     position: relative;
@@ -185,7 +198,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border:5px inset black;
+    border:5px outset aliceblue;
+    
   
 }
 .img2{
@@ -200,7 +214,7 @@
     height: 70%;
     object-fit: cover;
     transform: translate(-50%,-50%);
-    border:5px outset black;
+    border:5px outset aliceblue;
 }
  
 .aboutcontains{
@@ -228,31 +242,43 @@
     padding-right: 15px;
     padding-bottom: 10px;
     border-radius: 25px;
-    background-color: #e4d0d0ee;
+    background-color: #f21818ee;
     border: none;
     font-size: 1.9em;
 }
+.content button a{
+    color: aliceblue;
+    text-decoration: none;
+}
 .content button:hover{
-    background-color: #df0f0fbd;
+    background-color: #df0f0f6c;
     
 }
 .content img{
     width: 50px;
     height: 50px;
+    color: aliceblue;
+    margin-top: 8px;
 }
+/*------------====================================third section end============================================================---*/
+/*------------==================================fourth section starts here===================================================-->*/
 #services{
   width: 100%;
   height: 150vh;
+  background-color: #0f0e0e;
+  
 }
 #services h3 h1{
     font-weight: 700;
 }
 #services h1{
     font-size: 65px;
+    color: aliceblue;
 }
-#services  p{
+#services .ptag{
     margin-top: 30px;
     font-size: 20px;
+    color: aliceblue;
 }
 #services button{
     padding-top: 15px;
@@ -260,12 +286,13 @@
     padding-right: 15px;
     padding-bottom: 15px;
     border-radius: 30px;
-    background-color: #e4d0d0ee;
+    background-color: #e81717ee;
     border: none;
     font-size: 1.7em;
+    color: aliceblue;
 }
 #services button:hover{
-    background-color: #df0f0fbd;
+    background-color: #df0f0f77;
     color: #e3dbdb;
     
 }
@@ -296,6 +323,7 @@
 .Servicecontent  p{
     margin-left: 20px;
     font-size: 20px;
+    color: #0f0e0e;
 
 }
 .Servicecontent  h2{
@@ -303,19 +331,24 @@
     font-size: 30px;
 }
 
-   
+ /*------------====================================fourth section end============================================================---*/
+/*------------==================================fifth section starts here===================================================-->*/  
 #fleets{
   width: 100%;
   height: auto;
   font-weight: bold;
   flex-wrap: wrap;
-  color: rgb(16, 18, 19);
+  /* color: rgb(16, 18, 19); */
+  background-color: #0f0e0e;
+ 
 }
 #fleets h3 h1{
     font-weight: 700;
 }
 #fleets h1{
     font-size: 65px;
+    color: aliceblue;
+    margin-bottom: 30px;
 }
 
 
@@ -324,6 +357,7 @@
     width: 100%;
     height: auto;
     flex-wrap: wrap;
+
 }
 .slider{
     background: #f1eeee;
@@ -331,7 +365,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     width: 400px;
-    height: 670px;
+    height: 700px;
     border: 1px solid rgba(167, 149, 149, 0.744);
     border-top-right-radius: 60px;
     border-top-left-radius: 60px;
@@ -342,12 +376,12 @@
     border-bottom-width: 30px;
     border-left-width: 30px;
     border-right-width: 30px;
-    
-    
+    margin-bottom: 30px;
 } 
 .slider img{
     width: 360px;
     height: 250px;
+    
 }
 .slider button{
     padding-top: 10px;
@@ -365,7 +399,96 @@
     height: 25px;
     color: rgb(16, 15, 15);
     margin-right: 25px;
+  ;
 }
+/*------------====================================fifth section end============================================================---*/
+/*------------==================================sixth section starts here===================================================-->*/
+#cars{
+    width: 100%;
+    height: 110vh;
+    background-color: #0f0e0e;
+}
+#box{
+    width: 400px;
+    height: 75vh;
+    /* border: 1px solid black; */
+    background-size: cover;
+    background-image: url("./project.images/istockphotoblue3.jpg");
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    margin-left: 25px;
+    
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     /* box-shadow: 5px 5px 13px rgb(32, 32, 32),-5px -5px 13px rgb(30, 31, 31);  */
+}
+.boxes #textcontent{
+    width: 65%;
+    height: 75vh;
+    /* border: 1px solid black; */
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background: url("./project.images/pexels-photo-3786091.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 60px;
+    margin-right: 20px;
+    
+}
+#box2 div{
+    width: 300px;
+    height: 25vh;
+    border: 5px solid black;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#box2 {
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0e0e;
+
+}
+#box2 img{
+width: 300px;
+height: 25vh;
+border-top-right-radius: 30px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px;
+}
+#box2 img:hover{
+    width: 310px;
+    height: 30vh;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    }
+/*------------====================================sixth section end============================================================---*/
+/*------------==================================seventh section starts here===================================================-->*/
+#work{
+    width: 100%;
+    height: 100vh;
+}
+
+
 
 
 
