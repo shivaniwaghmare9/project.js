@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="book.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body >
+
+    <div id="login"  data-aos="flip-left"
+               data-aos-duration="2500">
+        <form >
+            <h2>LOGIN</h2>
+            <div class="inp">
+                <span class="icon">
+                    <i class="fa-solid fa-location"></i>
+                </span>
+               
+                <input type="location" required id="location" onclick="lock()">
+                <label>Add Your Location</label>
+            </div>
+            <div class="inp">
+                <span class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </span>
+                
+                <input type="text" required id="destination">
+                <label>Add Your Destination</label>
+            </div>
+            <div class="inp">
+                <span class="icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+                </span>
+                
+                <input type="date" required id="pickup">
+                <label>Add Pickup Date</label>
+            </div>
+            <div class="inp">
+                <span class="icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+                </span>
+                
+                <input type="date" required id="drope">
+                <label>Add Drope Date</label>
+            </div>
+            <div class="inp">
+                <span class="icon">
+                    <i class="fa-solid fa-lock"></i>
+                </span>
+                
+                <input type="text" required id="password">
+                <label>ADD YOUR DESTINATION</label>
+            </div>
+            
+           <div id="insert">
+            <input type="submit" value="Login" onclick="return login()" id="btn">
+           </div>
+           
+
+        </form>
+<!--=================================================================================================================-->
+        <div id="list" style="display: none;">
+            
+                
+                <option>1 INDORE</option>
+                <option>2 PUNE</option>
+                <option>3 BHOPAL</option>
+                <option>4 BETUL</option>
+                <option>5 RAISEN</option>
+             
+
+        </div>
+
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script1.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

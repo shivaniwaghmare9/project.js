@@ -117,7 +117,16 @@ else {
    // errorpass.innerHTML="invalid "
 }
 return false;
+}
+let lock=()=>{
+  let change=document.querySelector("#list")
+  if(!change) return;
+  if(change.style.display==="none" || change.style.display===""){
+    change.style.display="block";
+  }
+  else{
+    change.style.display="none";
+  }
 
-  
-  
+
 }
