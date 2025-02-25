@@ -17,13 +17,16 @@
 
 
 <body>
-    <nav>
-        <div id="container">
+  <input type="checkbox" id="inp"> 
+     <label for="inp" id="bars"><i class="fa-solid fa-bars"></i></label>
+    <header id="heading">
+      <nav>
+          <div id="container">
             
-            <div>
-                <h2>CAR<span>R<br>EN</span>TAL</h2>
+              <div>
+                  <h2>CAR<span>R<br>EN</span>TAL</h2>
                 
-            </div>
+              </div>
             <ul data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="2500">
@@ -38,8 +41,9 @@
 
             <input type="text" placeholder="Search">
 
-        </div>
-    </nav>
+          </div>
+      </nav>
+    </header>
 
  
 
@@ -103,7 +107,7 @@
         <button class="btn1"  data-aos="fade-right"
          data-aos-offset="350" 
          data-aos-easing="linear"
-         data-aos-duration="2500"><a href="from.html">Book A Rental!</a></button> 
+         data-aos-duration="2500"><a href="index.html#booking">Book A Rental!</a></button> 
         <button class="btn2"><a href="">Learn More</a></button>
     </div>
 </section> 
@@ -189,7 +193,7 @@
         <p>Enhance your rental<br> experience with<br> additional options.</p>
       </div>
       <div data-aos="fade-down"
-      data-aos-offset="200"
+      data-aos-offset="300"
       data-aos-duration="3000">
         <img src="./project.images/download (1).png" alt="png"><br><br>
         <h2>Chauffeur Services</h2><br><br>
@@ -485,17 +489,50 @@
 
  </section> 
  <!------------==================================eigthth section ends here===================================================-->
+  <!------------==================================nineth section starts here===================================================-->
+  <section id="booking">
+  <div id="login"  data-aos="flip-left"
+    data-aos-duration="2500">
+    <form >
+        <h2>BOOKING</h2>
+        <div class="inp">
+          <span class="icon">
+               <i class="fa-solid fa-location"></i>
+          </span>
+           <p id="emailerror"></p>
+            <input type="email" required id="mail">
+          <label>Location</label>
+  </div>
+   <div class="inp">
+     <span class="icon">
+         <i class="fa-solid fa-lock"></i>
+     </span>
+     <p id="passerror"></p>
+     <input type="text" required id="password">
+     <label>Address</Address></label>
+    </div>
+ 
+    <div id="insert">
+         <input type="submit" value="Login" onclick="return login()" id="btn">
+    </div>
+
+  </form>
+
+</div>
+
+  </section>
+   <!------------==================================nineth section ends here===================================================-->
 
 </main>
 
-<footer id="contact">
+ <footer id="contact">
   <center>
      <div>
       <p>Signup To Receive Offers & Updates</p><br>
 
       
      <input type="email" placeholder="YOUR E-MAIL">
-      <!-- <button><i class="fa-brands fa-telegram fa-beat"></i></button> -->
+      
      </div> <br><br>
      
   </center>
@@ -515,20 +552,21 @@
           <div>
               <h1>CONTACT US</h1><br><br>
               <p>If you’d like to get in touch, Please send us a mail during regular business hours.</p><br><br>
-              <p>ajmal.support@nha-world.com</p>
+              <p>carbooking.support@nha-world.com</p>
           </div>
           
 
       </div>
   </center>
   
-</footer>
+</footer> 
 <!--=======================[FOOTER ENDS HERE]==============-->
 
-
-
+   
      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
      <script src="swiper.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
