@@ -59,7 +59,7 @@ h2{
     border: none;
     outline: none;
     font-size: 1em;
-    color: rgb(4, 8, 11);
+    color: rgb(246, 249, 251);
     padding: 0 35px 0 5px;
 }
 .inp .icon{
@@ -104,6 +104,9 @@ h2{
 #insert input:hover{
     background: aliceblue;
     color: black;
+}
+#desti{
+    margin-left: 95%;
 }
 #register{
     font-size: .9em;

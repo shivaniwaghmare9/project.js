@@ -14,7 +14,7 @@
     <div id="login"  data-aos="flip-left"
                data-aos-duration="2500">
         <form >
-            <h2>LOGIN</h2>
+            <h2>BOOKING</h2>
             <div class="inp">
                 <span class="icon">
                     <i class="fa-solid fa-location"></i>
@@ -26,10 +26,16 @@
             <div class="inp">
                 <span class="icon">
                     <i class="fa-solid fa-location-dot"></i>
+                    <!-- <i class="fa-solid fa-angle-down " onclick="show()" > -->
                 </span>
-                
                 <input type="text" required id="destination">
-                <label>Add Your Destination</label>
+            <label>Add Your Destination</label>
+            <!-- <select  id="desti" style="display: none;">
+                <option value="Indore">INDORE</option>
+                <option value="Pune">PUNE</option>
+                <option value="Delhi">DELHI</option>
+                <option value="Bhopal">BHOPAL</option>
+            </select> -->
             </div>
             <div class="inp">
                 <span class="icon">
@@ -48,34 +54,30 @@
                 <label>Add Drope Date</label>
             </div>
             <div class="inp">
-                <span class="icon">
+                <!-- <span class="icon">
                     <i class="fa-solid fa-lock"></i>
-                </span>
+                </span> -->
                 
                 <input type="text" required id="password">
-                <label>ADD YOUR DESTINATION</label>
+                <label> Add Liecence Number</label>
             </div>
             
            <div id="insert">
-            <input type="submit" value="Login" onclick="return login()" id="btn">
+            <input type="submit" value="BOOK NOW" onclick="return login()" id="btn">
            </div>
            
 
         </form>
 <!--=================================================================================================================-->
-        <div id="list" style="display: none;">
-            
-                
-                <option>1 INDORE</option>
-                <option>2 PUNE</option>
-                <option>3 BHOPAL</option>
-                <option>4 BETUL</option>
-                <option>5 RAISEN</option>
-             
+        <select  id="list" style="display: none;">
+            <option value="Indore">INDORE</option>
+                <option value="Pune">PUNE</option>
+                <option value="Delhi">DELHI</option>
+                <option value="Bhopal">BHOPAL</option>
+        </select>
+        
 
-        </div>
-
-    </div>
+   
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

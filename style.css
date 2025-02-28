@@ -84,6 +84,7 @@
     width: 100%;
     height: auto;
     background-color: #0f0e0e;
+    flex-wrap: wrap;
   }
 
   .swiper-slide {
@@ -100,10 +101,7 @@
     width: 95%;
     height: auto;
     /* object-fit: cover; */
-    border-top-left-radius: 90px;
-    border-top-right-radius: 250px;
-    border-bottom-right-radius: 90px;
-    border-bottom-left-radius: 90px; 
+    border-radius: 20px;
   }
 
   .swiper-pagination-bullet {
@@ -186,7 +184,7 @@
 .aboutcontains{
     display: flex; 
     gap: 200px;
-    margin-top: 30px;
+    margin-top: 150px;
     background: #000000;
     flex-wrap: wrap;
     border-radius: 30px;
@@ -199,6 +197,8 @@
     height: 500px;
     /* border: 1px solid aliceblue; */
     margin-left: 30px;
+    margin-top: 10px;
+    
 }
 .img1{
     position: absolute;
@@ -230,6 +230,7 @@
 .content{
    width: 600px;
    height: 600px;
+   margin-top: 10px;
    /* border: 1px solid aliceblue; */
 }
 .content h1 h2 h3{
@@ -269,9 +270,10 @@
   height: auto;
   background-color: #0f0e0e;
   flex-wrap: wrap;
+  border: 1px solid rgb(9, 9, 9);
 }
-#services center{
-  margin-top: 50px; 
+#services .rent{
+  margin-top: 150px; 
 }
 #services h3 h1{
     font-weight: 700;
@@ -293,8 +295,12 @@
     border-radius: 30px;
     background-color: #e81717ee;
     border: none;
-    font-size: 1.7em;
+    font-size: 1.6em;
     color: aliceblue;
+}
+#services button a{
+    color: aliceblue;
+    text-decoration: none;
 }
 #services button:hover{
     background-color: #df0f0f77;
@@ -346,11 +352,13 @@
     height: auto;
     background-color: #0f0e0e;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+   
+    
 }
 #box{
-    margin-top: 10px;
+    margin-top: 160px;
     width: 400px;
     height:500px;
     /* border: 1px solid black; */
@@ -398,6 +406,7 @@
     flex-wrap: wrap;
 }
 #box2 {
+   
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2,ifr);
@@ -409,6 +418,7 @@
     background-color: #0f0e0e49;
     color: aliceblue;
     border-radius: 30px;
+    margin-top: 160px;
     box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
 }
 #box2 img{
@@ -421,7 +431,7 @@ border-bottom-left-radius: 30px;
 }
 #box2 img:hover{
     width: 310px;
-    height: 30vh;
+    height: 27vh;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -435,16 +445,17 @@ border-bottom-left-radius: 30px;
     font-weight: bold;
     flex-wrap: wrap;
     background-color: #0f0e0e;
-    margin-top: 30px;
-   
-  }
-  #fleets h3 h1{
+    border: 1px solid rgb(15, 15, 15);
+}
+#fleets h3 {
       font-weight: 700;
-  }
-  #fleets h1{
+      margin-top: 150px;
+}
+ #fleets h1{
       font-size: 65px;
       color: aliceblue;
-      margin-bottom: 30px;
+     
+      /* margin-bottom: 20px; */
   }
 /*------------====================================sixth section end============================================================---*/
 /*------------==================================seventh section starts here===================================================-->*/
@@ -459,11 +470,13 @@ border-bottom-left-radius: 30px;
      
 }
 #work .book1{
-    width: 50%;
+    margin-top: 100px;
+    width: 55%;
     height: auto;
     /* border: 2px solid aliceblue; */
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 1em;
     flex-wrap: wrap;
     border-radius: 30px;
@@ -479,10 +492,11 @@ border-bottom-left-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 #work .book2 img{
     border-radius: 40%;
-    height: auto;
+    height: 60%;
     border:2px  double rgba(0, 217, 255, 0.402);
 }
 /*<!------------==================================seventh section ends here===================================================-->*/
@@ -493,15 +507,20 @@ border-bottom-left-radius: 30px;
     font-weight: bold;
     background: #0f0e0e;
     color: aliceblue;
-    margin-top: 30px;
+    border: 1px solid rgb(16, 16, 16);
+    
+}
+#testimonials h3{
+margin-top: 160px;
 }
 #testimonials h1{
     font-size: 4em;
+    
 }
 .Swiper3 {
     width: 100%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     
 }
 #testimonials .Swiper3{
@@ -669,24 +688,30 @@ border-bottom-left-radius: 30px;
 }
 #contact .signup div{
     width: 100%;
-    height: 700px;
+    height: auto;
     border-right: 1px solid aliceblue;
     flex-direction: column;
     padding-top: 40px;
     color: aliceblue;
+    padding-left: 20px;
+    padding-top: 40px;
+    flex-wrap: wrap;
    
 }
 #contact .signup {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+#contact .signup h1 a{
+    color: aliceblue;
     
 }
 #contact .signup h1{
     transition: all 3s ease;
 }
 #contact .signup h1:hover{
-    color: sienna;
+    color: rgb(243, 12, 8);
 }
 #contact .signup  i{
      background-color: black;
@@ -700,7 +725,7 @@ border-bottom-left-radius: 30px;
       border: 5px solid aliceblue;
 }
 #contact .signup i:hover{
-    background-color: goldenrod;
+    background-color: darkgoldenrod;
     border: 5px solid darkred;
 }  
 #contact .signup h2{

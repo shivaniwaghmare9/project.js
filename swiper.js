@@ -10,6 +10,9 @@ var swiper = new Swiper(".mySwiper", {
       return '<span class="' + className + '">' + (index + 1) + "</span>";
     },
   },
+  autoplay:{
+    delay:2000
+  }
 });
 //=============================second swiper(sixth section)=============================================
   var swiper2 = new Swiper(".swiper2", {

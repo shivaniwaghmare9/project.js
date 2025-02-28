@@ -1,0 +1,134 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+/* ///--------------------------container----------------------- */
+
+
+
+#box3{
+    background-color: wheat;
+    background: transparent;
+    border: 2px solid gray;
+    width: 35%;
+    padding: 2rem;
+    display: grid;
+    font-size: 20px;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    color:aliceblue;
+  
+}
+#box3 input{
+    display: grid;
+    width: 90%;
+    padding: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: transparent;
+    border-bottom: 2px solid aliceblue;
+    
+}
+
+#box3 i{
+    position: relative;
+    right: -86%;
+    margin-top: -2.5rem;
+    color:aliceblue; 
+}
+#box3 p{
+    background-color: #f90404;
+    width: 30%;
+    color: wheat;
+    padding: 8px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    
+}
+#box3 p a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#box3 p:hover{
+    background: #f70707ac;
+}
+
+
+
+
+/* ///--------------------------box4----------------------- */
+#box4{
+    /* background-color: aqua; */
+    background-image: url("/project.images/photocar.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0rem 5rem 0rem;
+    
+}
+
+/* ///--------------------------List2----------------------- */
+#list2{
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+    width: 9%;
+    background-color: wheat;
+    position: absolute;
+    margin-left: 46rem;
+    margin-top: -12.2rem;
+    cursor: pointer;
+    /* z-index: 5; */
+}
+
+#list2 ul li{
+    list-style: none;
+}
+#list2 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
+/* ///--------------------------List3----------------------- */
+#list3{
+    position: absolute;
+    margin-top:-27.8rem;
+    background-color: wheat;
+    z-index: 5;
+    margin-left: 47rem;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+}
+
+
+#list3 ul li {
+    list-style: none;
+    /* margin-top: 7px; */
+    padding: 2px;
+}
+
+#list3 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}

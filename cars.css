@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*------------================================================================================================---*/
+/*------------==================================navbar section starts here===================================================-->*/
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #111010;
+}
+
+#container h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 115px;
+    height: 115px;
+    border: 5px dashed rgb(229, 232, 234);
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(235, 233, 228);
+    transition: all 3s ease-in-out;
+}
+#container h2:hover{
+    color: rgb(191, 165, 36);
+    transform: rotate(360deg);
+    border-radius: 100px;
+    font-size: 35px;
+}
+#container h2 span{
+    color: rgb(156, 130, 25);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#container h2 span:hover{
+    color: rgb(236, 236, 227);
+}
+#container  ul {
+    display: flex;
+    gap: 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#container  a{
+    text-decoration: none;
+    color: rgb(240, 233, 233);
+    font-family: "Lobster", serif;
+}
+#container li{
+    list-style: none;
+}
+#container  a:hover{
+    text-decoration: underline;
+    color: rgba(188, 8, 8, 0.737);
+}
+
+#container input{
+    outline-color: #f70707;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*==================================================first section===========================================================*/
+
+#img{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://img.freepik.com/premium-photo/row-lamborghinis-parking-lot-night_670382-17750.jpg?ga=GA1.1.1179863856.1733368449&semt=ais_hybrid");
+    background-size: cover;
+    /* border-radius: 50px; */
+   
+}
+/*=====================================================second section====================================================*/
+#ret{
+    flex-wrap: wrap; 
+    justify-content: center; 
+    position:absolute;
+    top: 15rem;
+    width: 60%;
+    left: 15rem;
+    z-index: 3;
+    text-align: center;
+}
+#ret h1{
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 4rem;
+}
+#ret h1 span{
+    color: darkgoldenrod;
+}
+#ret h2{
+    margin-top: 30px;
+}
+#ret h2 a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+   
+ }
+ #ret h2 a:hover{
+    color: rgb(247, 6, 6);
+    text-decoration: underline;
+}
+ #ret h2 span{
+     color: rgb(250, 23, 7);
+     font-size: 2rem;
+}
+/*==========================================================================thirdsection==================================*/
+#ourcar{
+    width: 100%;
+    /* height: auto; */
+    background: #131212;
+    
+    
+}
+.car{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.car div{
+    width: 350px;
+    height: 450px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.car div img{
+    width: 350px;
+    height: 450px;
+    border-radius: 30px;
+    /* transform: scale(3,-1); */
+}
+/* .car div img:hover{
+    
+} */
+ .car div h1{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 20px;
+}
