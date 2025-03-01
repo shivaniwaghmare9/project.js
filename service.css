@@ -12,7 +12,7 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background: #1c1c1c;
+    background: rgb(16, 15, 15);
 }
 
 #container h2{
@@ -85,7 +85,7 @@
     position:absolute;
     top: 15rem;
     width: 60%;
-    left: 15rem;
+    left: 19rem;
     z-index: 3;
     text-align: center;
 }
@@ -121,6 +121,7 @@
     height: auto;
     background-color: #0f0e0e;
     flex-wrap: wrap;
+    border: 1px solid rgb(13, 13, 14);
   }
   #services center{
     margin-top: 50px; 
@@ -199,7 +200,10 @@
     font-weight: bold;
     background: #0f0e0e;
     color: aliceblue;
-    margin-top: 30px;
+    border: 1px solid rgb(15, 15, 15);
+}
+#testimonials h3{
+margin-top: 130px;
 }
 #testimonials h1{
     font-size: 4em;
@@ -207,7 +211,7 @@
 .Swiper3 {
     width: 100%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 60px;
     
 }
 #testimonials .Swiper3{

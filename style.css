@@ -128,7 +128,7 @@
      position:absolute;
      top: 15rem;
      width: 60%;
-     left: 15rem;
+     left: 19rem;
      z-index: 3;
      text-align: center;
 }
@@ -436,8 +436,58 @@ border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    overflow: hidden;
 }
 /*------------====================================fifth section end============================================================---*/
+
+
+#choose{
+    width: 100%;
+    height: auto;
+    background: #111010;
+    border: 1px solid black;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+
+#options{
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    background: #161515;
+    /* border: 1px solid rgb(238, 234, 234); */
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
+}
+#options div{
+    width: 400px;
+    height: auto;
+    /* border: 1px solid black; */
+}
+#options .text{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 1.3em;
+} 
+.img3{
+    position: absolute;
+    width: 400px;
+    border-radius: 180px;
+    object-fit: cover;
+    border:5px outset aliceblue;
+    
+}
+.img4{
+    border-top-right-radius: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    position: absolute;
+    margin-top: 25%;
+    
+}
+
 /*------------==================================sixth section starts here===================================================-->*/
 #fleets{
     width: 100%;
@@ -496,7 +546,7 @@ border-bottom-left-radius: 30px;
 }
 #work .book2 img{
     border-radius: 40%;
-    height: 60%;
+    height: 80%;
     border:2px  double rgba(0, 217, 255, 0.402);
 }
 /*<!------------==================================seventh section ends here===================================================-->*/

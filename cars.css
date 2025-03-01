@@ -86,7 +86,7 @@
     position:absolute;
     top: 15rem;
     width: 60%;
-    left: 15rem;
+    left: 19rem;
     z-index: 3;
     text-align: center;
 }
@@ -121,14 +121,14 @@
     width: 100%;
     /* height: auto; */
     background: #131212;
-    
-    
+    border: 1px solid rgb(7, 7, 7);
 }
 .car{
     width: 100%;
     height: auto;
     display: flex;
     justify-content:space-evenly;
+   
     
 }
 .car div{
@@ -136,7 +136,7 @@
     height: 450px;
     /* border: 1px solid black; */
     border-radius: 30px;
-    margin-top: 30px;
+    margin-top: 130px;
 }
 .car div img{
     width: 350px;
@@ -152,3 +152,139 @@
     padding-left: 10px;
     padding-top: 20px;
 }
+/*================================================fourth section==============================================================================*/
+#choose{
+    width: 100%;
+    height: auto;
+    background: #111010;
+    border: 1px solid black;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+
+#options{
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    background: #161515;
+    /* border: 1px solid rgb(238, 234, 234); */
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
+}
+#options div{
+    width: 400px;
+    height: auto;
+    /* border: 1px solid black; */
+}
+#options .text{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 1.3em;
+} 
+.img1{
+    position: absolute;
+    width: 400px;
+    border-radius: 180px;
+    object-fit: cover;
+    border:5px outset aliceblue;
+    
+}
+.img2{
+    border-top-right-radius: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    position: absolute;
+    margin-top: 25%;
+    
+}
+
+/*------------------------------------------------------footer starts----------------------------------------*/
+#contacts {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding-top: 60px;
+    background: #0f0e0e;
+    flex-wrap: wrap;
+}
+#contacts p{
+   font-size: 30px;
+   color: aliceblue;
+}
+
+#contacts center input{
+        width:500PX;
+        height:7vh;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+}
+#contacts button{
+    font-size: 60px;
+    background-color: goldenrod;
+    color: aliceblue;
+}
+#contacts button i{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contacts .signup div{
+    width: 100%;
+    height: auto;
+    border-right: 1px solid aliceblue;
+    flex-direction: column;
+    padding-top: 40px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin-top: 60px;
+   
+}
+#contacts .signup {
+    display: flex;
+    justify-content: space-evenly;
+}
+#contacts .signup h1 a{
+    color: aliceblue;
+    
+}
+#contacts .signup h1{
+    transition: all 3s ease;
+}
+#contacts .signup h1:hover{
+    color: rgb(243, 12, 8);
+}
+#contacts .signup  i{
+     background-color: black;
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+      border-radius: 100%;
+      font-size: 30px;
+      color: aliceblue;
+      border: 5px solid aliceblue;
+}
+#contacts .signup i:hover{
+    background-color: goldenrod;
+    border: 5px solid darkred;
+}  
+#contacts .signup h2{
+    font-size: 30px;
+    transition: all 3s ease;
+}
+#contacts .signup h2:hover{
+    color: sienna;
+}
+/* #inp{
+    display: none;
+} */
+/* #bars{
+    display: none;
+} */
+
+

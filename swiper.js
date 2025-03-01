@@ -11,7 +11,7 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
   autoplay:{
-    delay:2000
+    delay:3000
   }
 });
 //=============================second swiper(sixth section)=============================================
