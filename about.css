@@ -117,4 +117,298 @@
      color: rgb(250, 23, 7);
      font-size: 2rem;
 }
-/*==========================================================================third section==================================*/
+/*==========================================================================second section end==================================*/
+/*------------==================================third section starts here===================================================-->*/
+#aboutus{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #121212;
+    color: aliceblue;
+}
+.aboutcontains{
+    display: flex; 
+    gap: 200px;
+    margin-top: 150px;
+    background: #000000;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
+  
+}
+.imgstack{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid aliceblue; */
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border:5px outset aliceblue;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+}
+.img2{
+    border-top-right-radius: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    border:5px outset aliceblue;
+}
+.content{
+   width: 600px;
+   height: 600px;
+   margin-top: 10px;
+   /* border: 1px solid aliceblue; */
+}
+.content h1 h2 h3{
+    font-weight: 500;
+}
+.content h1{
+    font-size: 25px;
+}
+.content button{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: #f21818ee;
+    border: none;
+    font-size: 1.9em;
+}
+.content button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.content button:hover{
+    background-color: #df0f0f6c;
+    
+}
+.content img{
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    margin-top: 8px;
+}
+/*------------====================================third section end==================================*/
+/*================================================fourth section starts=================================================================*/
+#vision{
+    width: 100%;
+    height: auto;
+    color: aliceblue;
+    background: #0f0f0f;
+    border: 1px solid rgb(11, 11, 11);
+    
+}
+#vision button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    background:aliceblue;
+    color: rgb(7, 7, 7);
+   border: none;
+}
+#vision .btn1{
+    background:red;
+    color: aliceblue;
+}
+#vision button:hover{
+    background:red;
+    color: aliceblue;
+}
+#vision .mission div{
+    width: 650px;
+    height: 700px;
+    /* border: 1px solid rgb(245, 241, 241); */
+    font-size: 1.2em;
+}
+#vision .mission{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    flex-wrap: wrap;
+    font-weight: bold;
+    background: #000000;
+    border-radius: 30px;
+    
+}
+#vision .mission div h1{
+    font-size: 60px;
+}
+#vision .mission div #icon{
+    width: 30px;
+    height: 30px;
+}
+#vision .mission div .img3{
+    width: 650px;
+    height: 700px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(86, 93, 93, 0.249),-5px -5px 10px rgba(88, 99, 110, 0.24);
+  
+}
+/*==============================================fifth section starts========================================================================================*/
+#latest{
+    width: 100%;
+    height: auto;
+    background: #0b0a0a;
+    color: aliceblue;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+#latest .article div{
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+   
+}
+#latest .article{
+    display: flex;
+    justify-content: space-evenly;
+    background: #000000;
+    margin-top: 120px;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+#latest .article div .img7{
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+}
+#latest .article div p  {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 40px;
+    font-size: 35px;
+}
+#latest .article div h3  {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+#latest .story div{
+    width: 100%;
+    /* height: 150px; */
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#latest .story div img{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+/*------------------------------------------------------footer starts----------------------------------------*/
+#contacts {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding-top: 60px;
+    background: #0f0e0e;
+    flex-wrap: wrap;
+}
+#contacts p{
+   font-size: 30px;
+   color: aliceblue;
+}
+
+#contacts center input{
+        width:500PX;
+        height:7vh;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+}
+#contacts button{
+    font-size: 60px;
+    background-color: goldenrod;
+    color: aliceblue;
+}
+#contacts button i{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contacts .signup div{
+    width: 100%;
+    height: auto;
+    border-right: 1px solid aliceblue;
+    flex-direction: column;
+    padding-top: 40px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin-top: 60px;
+   
+}
+#contacts .signup {
+    display: flex;
+    justify-content: space-evenly;
+}
+#contacts .signup h1 a{
+    color: aliceblue;
+    
+}
+#contacts .signup h1{
+    transition: all 3s ease;
+}
+#contacts .signup h1:hover{
+    color: rgb(243, 12, 8);
+}
+#contacts .signup  i{
+     background-color: black;
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+      border-radius: 100%;
+      font-size: 30px;
+      color: aliceblue;
+      border: 5px solid aliceblue;
+}
+#contacts .signup i:hover{
+    background-color: goldenrod;
+    border: 5px solid darkred;
+}  
+#contacts .signup h2{
+    font-size: 30px;
+    transition: all 3s ease;
+}
+#contacts .signup h2:hover{
+    color: sienna;
+}
+/* #inp{
+    display: none;
+} */
+/* #bars{
+    display: none;
+} */
+
+
+
