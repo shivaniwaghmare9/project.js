@@ -128,8 +128,8 @@
     height: auto;
     display: flex;
     justify-content:space-evenly;
+    flex-wrap: wrap;
    
-    
 }
 .car div{
     width: 300px;
@@ -137,17 +137,16 @@
     /* border: 1px solid black; */
     border-radius: 30px;
     margin-top: 130px;
+    flex-wrap: wrap;
 }
 .car div img{
     width: 300px;
     height: 400px;
     border-radius: 30px;
-    /* transform: scale(3,-1); */
+   
 }
-/* .car div img:hover{
-    
-} */
- .car div h1{
+
+.car div h1{
     position: absolute;
     padding-left: 10px;
     padding-top: 20px;
@@ -176,6 +175,7 @@
     width: 400px;
     height: auto;
     /* border: 1px solid black; */
+    flex-wrap: wrap;
 }
 #options .text{
     margin-top: 70px;
@@ -206,38 +206,29 @@
 }
 
 /*------------------------------------------------------footer starts----------------------------------------*/
-#contacts {
+
+  
+   
+#contact {
     width: 100%;
     height: auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     padding-top: 60px;
     background: #0f0e0e;
     flex-wrap: wrap;
 }
-#contacts p{
-   font-size: 30px;
+#contact p{
+   font-size: 20px;
    color: aliceblue;
 }
-
-#contacts center input{
-        width:500PX;
+#contact center input{
+        width:400PX;
         height:7vh;
         font-size: 20px;
         padding-left: 20px;
         border-radius: 20px;
 }
-#contacts button{
-    font-size: 60px;
-    background-color: goldenrod;
-    color: aliceblue;
-}
-#contacts button i{
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-#contacts .signup div{
+#contact .signup div{
     width: 100%;
     height: auto;
     border-right: 1px solid aliceblue;
@@ -246,44 +237,52 @@
     color: aliceblue;
     padding-left: 20px;
     padding-top: 40px;
-    margin-top: 60px;
+    flex-wrap: wrap;
    
 }
-#contacts .signup {
+#contact .signup {
     display: flex;
     justify-content: space-evenly;
+    /* flex-wrap: wrap; */
 }
-#contacts .signup h1 a{
+#contact .signup h1 a{
     color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
     
 }
-#contacts .signup h1{
-    transition: all 3s ease;
-}
-#contacts .signup h1:hover{
+
+#contact .signup h1:hover{
     color: rgb(243, 12, 8);
 }
-#contacts .signup  i{
+#contact .signup  i{
+    margin-top: 20px;
      background-color: black;
-     padding-top: 20px;
-     padding-left: 20px;
-     padding-right: 20px;
-     padding-bottom: 20px;
-      border-radius: 100%;
-      font-size: 30px;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     border-radius: 100%;
+     font-size: 20px;
       color: aliceblue;
       border: 5px solid aliceblue;
+      gap: 10px;
 }
-#contacts .signup i:hover{
-    background-color: goldenrod;
+#contact .signup i:hover{
+    background-color: darkgoldenrod;
     border: 5px solid darkred;
 }  
-#contacts .signup h2{
+#contact .signup h1{
     font-size: 30px;
     transition: all 3s ease;
 }
-#contacts .signup h2:hover{
-    color: sienna;
+#contact .signup h1:hover{
+    color: rgb(243, 31, 3);
+}
+#contact .signup a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
 }
 /* #inp{
     display: none;
@@ -291,5 +290,41 @@
 /* #bars{
     display: none;
 } */
+/*<!--=======================[FOOTER end HERE]==============-->*/
+/*===============[MEDIA QUERY STARTS HERE]===========*/
+@media (max-width:450px){
+    #heading nav #container  ul {
+        display: none;
+    }
+    #inp:checked~ #container ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 12%;
+        right:7%;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: aliceblue;
+        line-height: 5%;
+    }
+    #bars{
+        display: block;
+        position: absolute;
+        top: 3%;
+        right: 9%;
+        font-size: 35px;
+        color: aliceblue;
+        /* z-index: 50; */
+    }
+    
+}
+  
+   
+
+
+
+
+
+
 
 

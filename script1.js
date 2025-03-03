@@ -1,33 +1,6 @@
 
-VANTA.NET({
-   el: "#contact",
-   mouseControls: true,
-   touchControls: true,
-   gyroControls: false,
-   minHeight: 200.00,
-   minWidth: 200.00,
-   scale: 1.00,
-   scaleMobile: 1.00,
-   color: 0xb04747,
-   backgroundColor: 0x161617,
-   points: 11.00,
-   maxDistance: 24.00,
-   spacing: 16.00
- })
 
- VANTA.NET({
-  el: "#contacts",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0xb03838,
-  backgroundColor: 0x8070d
-})
-
+//==============================================FORM JS========================================================================================
 let sub=()=>{
 let inpname=document.querySelector("#nameinput").value
 let inpnumber=document.querySelector("#numberinput").value
@@ -86,7 +59,7 @@ if(inpcorpass==""){
 else if(inppass!==inpcorpass){
     
     errcorpass.innerHTML="password does not match please enter the correct password"
-    errcorpass.style.color="brown"
+    errcorpass.style.color="red"
     document.querySelector("#confirmpassinput").value=""
     document.querySelector("#confirmpassinput").focus()
     
@@ -95,7 +68,7 @@ else if(inppass!==inpcorpass){
 
 else if(!(inpemail.includes(".com") && inpemail.includes('@'))){
   erremail.innerHTML="Please Enter valid E-mail @,.com"
-  erremail.style.color="brown"
+  erremail.style.color="red"
   return false;
 }
 
@@ -110,11 +83,7 @@ else if(isNaN(inpnumber)){
     return false;
  }
 
-//  else if(!(inppassword.match([/123456789/])  && inppassword.match([/!@#$%^&*><.,/])&& inppassword.match([/a-z/]))){
-//   errpassword.innerHTML="Please Enter Strong Password Write dots,symbols,number,alpha"
-//   errpassword.style.color="red"
-//   return false;
-// }
+
 
     localStorage.setItem("name",inpname)
     localStorage.setItem("number",inpnumber)
@@ -125,7 +94,7 @@ else if(isNaN(inpnumber)){
      location.href="login.html"
      return false;
 }
-
+//===============================================LOGIN JS======================================================================================================
 let login=()=>{
 
   let inpmail=document.querySelector("#mail").value
@@ -146,28 +115,28 @@ else {
 return false;
 }
 //============================================(login)Location=====================================================================
-let lock=()=>{
-  let change=document.querySelector("#list")
-  if(!change) return;
-  if(change.style.display==="none" || change.style.display===""){
-    change.style.display="block";
-  }
-  else{
-    change.style.display="none";
-  }
-}
+// let lock=()=>{
+//   let change=document.querySelector("#list")
+//   if(!change) return;
+//   if(change.style.display==="none" || change.style.display===""){
+//     change.style.display="block";
+//   }
+//   else{
+//     change.style.display="none";
+//   }
+// }
 //=========================================(login)destination====================================================================
-let show=()=>{
-  let change1=document.querySelector("#desti")
-  if(!change1) return;
-  if(change1.style.display==="none" || change1.style.display===""){
-    change1.style.display="block";
-  }
-  else{
-    change1.style.display="none";
-  }
-}
-//=================================================================CONTACTUS============================================
+// let show=()=>{
+//   let change1=document.querySelector("#desti")
+//   if(!change1) return;
+//   if(change1.style.display==="none" || change1.style.display===""){
+//     change1.style.display="block";
+//   }
+//   else{
+//     change1.style.display="none";
+//   }
+// }
+// //=================================================================CONTACTUS============================================
 let CON=()=>{
   let inpname=document.querySelector("#nameinput").value
   let inpnumber=document.querySelector("#numberinput").value

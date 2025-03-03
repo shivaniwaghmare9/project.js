@@ -37,7 +37,7 @@ h2{
 }
 
 form input{
-    color: rgb(21, 27, 32);
+    color: rgb(222, 226, 229);
     width: 60%;
     height: 40px;
     background: transparent;
@@ -52,7 +52,7 @@ form input{
     
 }
 #submit{
-    background: transparent;
+    background: aliceblue;
     color: rgb(8, 11, 13);
     font-size: 30px;
     box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
@@ -60,10 +60,10 @@ form input{
 }
 #submit:hover{
     color: black;
-    background: aliceblue;
+    background: transparent;
 }
 #form p{
     font-size: large;
-    text-shadow: 2px 2px 5px rgb(214, 205, 205),-2px -2px 5px rgb(189, 183, 183);
+    
 }
 
