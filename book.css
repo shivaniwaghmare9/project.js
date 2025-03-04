@@ -1,131 +1,146 @@
 
-
 *{
     margin: 0;
     padding: 0;
-    font-family: cursive;
     box-sizing: border-box;
 }
+/*====================================================table css===========================================================================================*/
+
 body{
     width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background: linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142)); */
-    background-image: url("./project.images/photocar.avif");
+    height: auto; 
+    background: url("./project.images/photocar.avif");
     background-size: cover;
 }
-#login{
-    position: relative;
-    width: 500px;
-    height: 650px;
-    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
-    background: transparent;
+ #inp{
+    width: 20%;
+    height: 40px;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-h2{
-    font-size: 2cm;
+    border: 2px solid rgb(13, 13, 13);
+ }
+ h1{
     color: aliceblue;
-    text-align: center;
-}
-.inp{
-    position: relative;
-    width: 310px;
-    margin: 30px 0;
-    border-bottom: 2px solid aliceblue;
-}
-.inp label{
-    position:absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
-    font-size: 20px;
-    color: aliceblue;
-    pointer-events: none;
-    transition: .5s;
-}
-.inp input:focus~label,
-.inp input:valid~label{
-    top: -5px;
-}
-.inp input{
+ }
+#border{
     width: 100%;
-    height: 50px;
+    height: 50vh;
+   /* background: linear-gradient(rgb(90, 110, 125),rgb(86, 99, 139),rgba(118, 69, 126, 0.614));*/
+    color: aliceblue;
+    border: 5px solid aliceblue;
     background: transparent;
+    /* border-radius: 30px; */
+    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+    
+}
+#thd{
+    width: 100%;
+    height: 10vh;
+    /* background: black; */
+    margin-top: 50px;
+    margin-left: 50px;
+    background: transparent;
+    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+}
+#thd tr th{
+     padding-left: 5px;
+    padding-right: 5px; 
+    color: rgb(247, 22, 6);
+    border-radius: 10px;
+    font-size: 19px;
+    
+}
+#element{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 17px;
+    box-shadow: 5px 5px 13px rgb(96, 101, 101),-5px -5px 13px rgb(99, 108, 108);
+    
+}
+#element td{
+    border: 2px solid aliceblue;
+}
+#element #nme{
+    color: aliceblue;
+}
+/*===================================================form css==========================================================================================*/
+
+#form{
+    margin-top: 20px;
+    width: 40%;
+    height: 95vh;
+    color: aliceblue;
+    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#form h1 span{
+    
+    color: darkgoldenrod;
+}
+#form input{
+    width:60%;
+    height: 35px;
+    background:transparent;
     border: none;
     outline: none;
     font-size: 1em;
     color: rgb(246, 249, 251);
     padding: 0 35px 0 5px;
+    border-bottom: 2px solid aliceblue;
+    border-radius: 10px;
+    padding-left: 20px;
 }
-.inp .icon{
-    position: absolute;
-    right: 8px;
-    color: aliceblue;
-    font-size: 1.2em;
-    line-height: 57px;
 
-}
-.remember{
-    margin: 15px 0 15px;
-    font-size: .9em;
-    color: aliceblue;
-    display: flex;
-    justify-content: space-between;
-    font-weight: 500;
-}
-.remember label input{
-    margin-right: 3px;
-}
-.remember a{
-    color: aliceblue;
-    text-decoration: none;
-}
-.remember a:hover{
-    text-decoration: underline;
-}
-#insert input{
-    width: 100%;
-    height: 50px;
-    background-color: transparent;
-    border: none; 
-    outline: none;
-    cursor: pointer;
-    font-size: 1.7em;
-    color:  aliceblue;;
-    border-radius: 20px;
-    font-weight: 500;
-    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
-}
-#insert input:hover{
-    background: aliceblue;
-    color: black;
-}
-#desti{
-    margin-left: 95%;
-}
-#register{
-    font-size: .9em;
-    color: rgb(219, 223, 227);
-    text-align: center;
-    margin: 25px 0 10px;
+#form div{
+    font-size: 1.4em;
     
 }
-#register p a{
+#form #submit{
+    background: aliceblue;
+    border-radius: 30px;
+    color: black;
+}
+#form div select{
+    background: transparent;
     color: aliceblue;
-    text-decoration: none;
-    font-weight: 600;
+    font-size: 15px;
 }
-#register p a:hover{
-    text-decoration: underline;
+#form div select option{
+    color: black;
 }
-#list{
-    background: rgba(156, 141, 124, 0.342);
+/*===================================================js form===============================================================================*/
+#form2{
+    padding-top: 20px;
     color: aliceblue;
-    margin-bottom: 70px;
-   
+     box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+     border: 5px solid aliceblue;
+     border-radius: 30px;
 }
+#data1{
+    margin-top: 40px;
+    width: 40%;
+    height: 40vh;
+    
+}
+#form2 input{
+        width:50%;
+        height: 35px;
+        background:rgba(230, 227, 222, 0.116);
+        border: none;
+        outline: none;
+        font-size: 1em;
+        color: rgb(246, 249, 251);
+        padding: 0 35px 0 5px;
+        border-bottom: 2px solid aliceblue;
+        border-radius: 10px;
+        padding-left: 20px;
+}
+#form2 #submit{
+    background: aliceblue;
+    border-radius: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+ 

@@ -5,11 +5,6 @@
     margin: 0px;
     box-sizing: border-box; 
     font-family: "Oswald", serif;
-    /* font-weight: weight; */
-    /* font-style: normal; */
-   
-    /* overflow: hidden; */
-   
 }
 /*------------================================================================================================---*/
 /*------------==================================navbar section starts here===================================================-->*/
@@ -739,7 +734,7 @@ margin-top: 160px;
 }
 #contact .signup h1 a{
     color: aliceblue;
-    text-decoration: none;
+    /* text-decoration: none; */
     font-size: 30px;
     
 }
@@ -748,7 +743,7 @@ margin-top: 160px;
     color: rgb(243, 12, 8);
 }
 #contact .signup  i{
-    margin-top: 20px;
+     margin-top: 20px;
      background-color: black;
      padding-top: 10px;
      padding-left: 10px;
@@ -756,9 +751,10 @@ margin-top: 160px;
      padding-bottom: 10px;
      border-radius: 100%;
      font-size: 20px;
-      color: aliceblue;
-      border: 5px solid aliceblue;
-      gap: 10px;
+     color: aliceblue;
+     border: 5px solid aliceblue;
+     /* gap: 10px; */
+      
 }
 #contact .signup i:hover{
     background-color: darkgoldenrod;
@@ -772,7 +768,7 @@ margin-top: 160px;
     color: rgb(243, 31, 3);
 }
 #contact .signup a{
-    text-decoration: none;
+    /* text-decoration: none; */
     color: aliceblue;
     font-size: 20px;
 }

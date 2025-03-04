@@ -1,0 +1,95 @@
+{
+  "carrentall": [
+    {
+      "name": "vani",
+      "mobile": "123456",
+      "aadhhar": "1234567",
+      "licence": "87654321",
+      "pickdate": "12-02-2025",
+      "dropedate": "13-02-2025",
+      "desti": "bhopal",
+      "location": "bhopal",
+      "car": "AUDI",
+      "price": 900,
+      "id": "440b"
+    },
+    {
+      "id": "a7c7",
+      "name": "shivaniii",
+      "mobile": "08815912442",
+      "aadhhar": "1234567890",
+      "licence": "123456",
+      "pickdate": "12-02-2025",
+      "dropedate": "13-02-2025",
+      "desti": "pune",
+      "location": "indore",
+      "car": "KIA",
+      "price": 900
+    },
+    {
+      "id": "3b5e",
+      "name": "E",
+      "mobile": "2323456789",
+      "aadhhar": "123456789121",
+      "licence": "1234567890987123",
+      "pickdate": "12-02-2025",
+      "dropedate": "13-02-2025",
+      "desti": "indore",
+      "location": "indore",
+      "car": "BMW",
+      "price": 900
+    },
+    {
+      "id": "18a1",
+      "name": "shivani w",
+      "mobile": "8815912442",
+      "aadhhar": "654321789076",
+      "licence": "1234567890098765",
+      "pickdate": "12-02-2025",
+      "dropedate": "13-02-2025",
+      "desti": "indore",
+      "location": "pune",
+      "car": "AUDI",
+      "price": 900
+    },
+    {
+      "id": "92e9",
+      "name": "preet",
+      "mobile": "3214567843",
+      "aadhhar": "123456789012",
+      "licence": "1234567898765435",
+      "pickdate": "12-02-2025",
+      "dropedate": "13-02-2025",
+      "desti": "bhopal",
+      "location": "delhi",
+      "car": "LUXURY",
+      "price": 900
+    },
+    {
+      "name": "shivani waghmare",
+      "mobile": "8815912442",
+      "aadhhar": "654321789076",
+      "licence": "1234567890987654",
+      "pickdate": "2025-03-20",
+      "dropedate": "2025-03-13",
+      "desti": "bhopal",
+      "location": "bhopal",
+      "car": "AUDI",
+      "price": 900,
+      "id": "f6d5"
+    },
+    {
+      "id": "ac3b",
+      "name": "aarti",
+      "mobile": "8815912442",
+      "aadhhar": "654321789076",
+      "licence": "9876543212345678",
+      "pickdate": {},
+      "dropedate": "2025-03-20",
+      "desti": "bhopal",
+      "location": "delhi",
+      "car": "TOYOTA",
+      "price": 900
+    }
+  ]
+}
