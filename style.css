@@ -1168,7 +1168,7 @@ margin-top: 160px;
     flex-direction: column;
 }
 #options div{
-    width: 400px;
+    width: 100%;
     height: auto;
     padding: 2rem;
     flex-direction: column;
