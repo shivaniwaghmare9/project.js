@@ -1194,7 +1194,7 @@ margin-top: 160px;
 }
 .img3{
     position: absolute;
-    width: 300px;
+    width: 100%;
     border-radius: 180px;
     object-fit: cover;
     border:5px outset aliceblue;
