@@ -143,4 +143,57 @@ body{
     margin-bottom: 20px;
 }
 
+/*===============[MEDIA QUERY STARTS HERE]===========*/
+@media (max-width:450px){
+    /*===================================================form css==========================================================================================*/
+
+#form{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    color: aliceblue;
+    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#form h1 span{
+    
+    color: darkgoldenrod;
+}
+#form input{
+    width:60%;
+    height: 35px;
+    background:transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: rgb(246, 249, 251);
+    padding: 0 35px 0 5px;
+    border-bottom: 2px solid aliceblue;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+#form div{
+    font-size: 1.4em;
+    
+}
+#form #submit{
+    background: aliceblue;
+    border-radius: 30px;
+    color: black;
+}
+#form div select{
+    background: transparent;
+    color: aliceblue;
+    font-size: 15px;
+}
+#form div select option{
+    color: black;
+}
+
+
+}
+
  
