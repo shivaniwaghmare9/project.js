@@ -819,9 +819,7 @@ margin-top: 160px;
         gap: 10px;
         font-size: 20px;
     }
-    /* #id1{
-        display: flex;
-    } */
+    
     #bars{
         display: block;
         position: absolute;
