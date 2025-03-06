@@ -5,7 +5,7 @@ let displaydata= async()=>{
     let store= await replay.json()
     console.log(store);
 
-    seedata(store)
+    pagination(store)
 
 }
 let searchh= async()=>{
@@ -17,9 +17,24 @@ let searchh= async()=>{
     let filterdata= store.filter((e)=>{
         return e.name.toLowerCase().includes(inpp)
     })
-    seedata(filterdata)
+    pagination(filterdata)
+   
 
 }
+
+
+let pagination=(store)=>{
+     $('#pagin').pagination({
+        dataSource: store,
+        pageSize: 5,
+        showGoInput: true,
+        showGoButton: true,
+        callback: function(store, pagination) {
+            seedata(store)
+        }
+    })
+}
+
 let seedata=(store)=>{
     let see=document.querySelector("#showme")
     see.innerHTML=""

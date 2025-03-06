@@ -437,6 +437,10 @@ border-radius: 30px;
     color: aliceblue;
     flex-wrap: wrap;
 }
+#choose h3{
+    color: red;
+     margin-top: 100px
+}
 
 #options{
     height: 700px;
@@ -462,6 +466,16 @@ border-radius: 30px;
     width: 50px;
     height: 50px;
    
+}
+#options .text2 h2 img{
+    width: 50px;
+    height: 50px;
+   
+}
+#options .text2{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 .img3{
     position: absolute;
@@ -772,44 +786,51 @@ margin-top: 160px;
     color: aliceblue;
     font-size: 20px;
 }
-#id1{
+/* #id1{
  display: none;
+} */
+#inp{
+    display: none;
+} 
+ #bars{
+    display: none;
 }
-/* #inp{
-    display: none;
-} */
-/* #bars{
-    display: none;
-} */
+
 /*<!--=======================[FOOTER end HERE]==============-->*/
 /*===============[MEDIA QUERY STARTS HERE]===========*/
-@media (max-width:450px){
+@media (max-width:500px){
     #heading  #container  ul {
         display: none;
     }
-    #inp:checked~ nav #container  ul{
+    #inp:checked~ #heading nav #container  ul{
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 4%;
+        top: 10%;
         right:7%;
         padding: 20px;
         border-radius: 10px;
         background-color: aliceblue;
-        line-height: 5%;
+        /* line-height: 8%; */
+        z-index: 5;
     }
-    #id1{
+    #heading nav #container ul a{
+        color: #000000;
+        gap: 10px;
+        font-size: 20px;
+    }
+    /* #id1{
         display: flex;
-    }
-    /* #bars{
+    } */
+    #bars{
         display: block;
         position: absolute;
         top: 3%;
-        right: 9%;
+        right: 10%;
         font-size: 35px;
         color: aliceblue;
         z-index: 5;
-    } */
+    }
     #container h2{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-weight: bold;
@@ -823,13 +844,15 @@ margin-top: 160px;
         font-size: 20px;
         color: rgb(235, 233, 228);
         transition: all 3s ease-in-out;
+        
+    }
+    #container h2:hover{
+        color: rgb(191, 165, 36);
+        transform: rotate(360deg);
+        border-radius: 100px;
+        font-size: 20px;
     }
     #container input{
-        /* outline-color: #f70707;
-        padding: 7px;
-        font-size: 20px;
-        border-radius: 10px;
-        cursor: pointer; */
         display: none;
     }
     #container{
@@ -840,6 +863,49 @@ margin-top: 160px;
         height: auto;
         background: black; 
     }
+    /*------------==================================first section starts here===================================================-->*/
+/* ///-------------------------============-swiper-slider========================----------------------- */
+.swiper {
+    width: 100%;
+    height: auto;
+    background-color: #0f0e0e;
+    flex-wrap: wrap;
+  }
+
+  .swiper-slide {
+   
+    text-align: center;
+    font-size: 18px;
+    background-color: #0f0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 95%;
+    height: auto;
+    /* object-fit: cover; */
+    border-radius: 20px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #161515;
+    opacity: 1;
+    background: rgba(235, 229, 229, 0.811);
+  }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
+/*------------====================================first section end============================================================---*/
     
 /*------------==================================second section starts here===================================================-->*/
 
@@ -849,12 +915,12 @@ margin-top: 160px;
     position:absolute;
     top: 7rem;
     width: 60%;
-    left: 3rem;
+    left: 4rem;
     z-index: 3;
     text-align: center;
 }
 #ret h1{
-   font-size: 1.2rem;
+   font-size: 1.7rem;
    font-weight: 700;
 }
 #ret h1 span{
@@ -862,9 +928,7 @@ margin-top: 160px;
    text-decoration: underline;
 }
 #ret p{
-   font-size: 1rem;
-   font-weight: 700;
-   color: red;
+   display: none;
 }
 
 #ret button{
@@ -874,7 +938,7 @@ margin-top: 160px;
    padding-right: 15px;
    padding-bottom: 10px;
    border-radius: 25px;
-   background-color: #e7dedeee;
+   background-color: #fa0808ee;
    border: none;
 }
 #ret br{
@@ -892,8 +956,9 @@ margin-top: 160px;
    color: #e3dbdb;
 }
 #ret .btn2{
-   background-color: #f7070799;
-   color: #0f0e0e;
+   /* background-color: #f7070799;
+   color: #0f0e0e; */
+   display: none;
 }
 /*------------====================================second section end============================================================---*/
 
@@ -1008,7 +1073,7 @@ margin-top: 160px;
       font-weight: 700;
   }
   #services h1{
-      font-size: 56px;
+      font-size: 40px;
       color: aliceblue;
   }
   #services .ptag{
@@ -1082,10 +1147,11 @@ margin-top: 160px;
     border: 1px solid black;
     color: aliceblue;
     flex-wrap: wrap;
+    padding: 2rem;
     
 }
 #choose div h3{
-    margin-top: 250;
+    margin-top: 250px;
 }
 
 #choose h1{
@@ -1105,13 +1171,22 @@ margin-top: 160px;
     width: 400px;
     height: auto;
     padding: 2rem;
+    flex-direction: column;
 }
 #options .text{
-    margin-top: 70px;
+    /* margin-top: 70px; */
     font-weight: bold;
     font-size: 1.2em;
     padding: 2rem;
+   
 } 
+#options .text2{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 2rem;
+    margin-top: 30rem;
+}
+
 #options .text h2 img{
     width: 40px;
     height: 40px;
@@ -1242,13 +1317,13 @@ border-radius: 30px;
 }
 #fleets h3 {
       font-weight: 700;
-      margin-top: 150px;
+      margin-top: 100px;
 }
  #fleets h1{
       font-size: 40px;
       color: aliceblue;
      
-      /* margin-bottom: 20px; */
+      
   }
 /*------------====================================sixth section end============================================================---*/
 /*------------==================================seventh section starts here===================================================-->*/
@@ -1446,9 +1521,7 @@ margin-top: 160px;
     color: aliceblue;
     font-size: 20px;
 }
-#id1{
- display: none;
-}
+
 
 
 }

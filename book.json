@@ -79,17 +79,30 @@
       "id": "f6d5"
     },
     {
-      "id": "ac3b",
       "name": "aarti",
       "mobile": "8815912442",
       "aadhhar": "654321789076",
       "licence": "9876543212345678",
-      "pickdate": {},
+      "pickdate": "2025-03-16",
       "dropedate": "2025-03-20",
       "desti": "bhopal",
-      "location": "delhi",
-      "car": "TOYOTA",
-      "price": 900
+      "location": "bhopal",
+      "car": "AUDI",
+      "price": 900,
+      "id": "ac3b"
+    },
+    {
+      "name": "dassu",
+      "mobile": "8765432190",
+      "aadhhar": "654321789076",
+      "licence": "9876543212345678",
+      "pickdate": "2025-03-14",
+      "dropedate": "2025-03-27",
+      "desti": "bhopal",
+      "location": "bhopal",
+      "car": "AUDI",
+      "price": 900,
+      "id": "1abc"
     }
   ]
 }
