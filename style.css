@@ -798,7 +798,7 @@ margin-top: 160px;
 
 /*<!--=======================[FOOTER end HERE]==============-->*/
 /*===============[MEDIA QUERY STARTS HERE]===========*/
-@media (max-width:500px){
+@media (max-width:450px){
     #heading  #container  ul {
         display: none;
     }
