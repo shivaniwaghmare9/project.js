@@ -199,6 +199,7 @@ body{
     height: auto; 
     background: url("./project.images/photocar.avif");
     background-size: cover;
+    background-repeat: no-repeat;
 }
  #inp{
     width: 20%;
