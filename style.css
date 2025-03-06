@@ -922,6 +922,7 @@ margin-top: 160px;
 #ret h1{
    font-size: 1.7rem;
    font-weight: 700;
+   color: black;
 }
 #ret h1 span{
    color: #f70707da;
@@ -1197,6 +1198,8 @@ margin-top: 160px;
     border-radius: 180px;
     object-fit: cover;
     border:5px outset aliceblue;
+    margin-right: 20px;
+   
     
 }
 .img4{
