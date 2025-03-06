@@ -160,7 +160,10 @@
     color: aliceblue;
     flex-wrap: wrap;
 }
-
+#choose h3{
+    color: red;
+     margin-top: 100px
+}
 #options{
     height: 700px;
     display: flex;
@@ -185,7 +188,15 @@
 #options .text h2 img{
     width: 50px;
     height: 50px;
-   
+}
+#options .text2 h2 img{
+    width: 50px;
+    height: 50px;
+}
+#options .text2{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 .img1{
     position: absolute;
@@ -284,19 +295,19 @@
     color: aliceblue;
     font-size: 20px;
 }
-/* #inp{
+#inp{
     display: none;
-} */
-/* #bars{
+} 
+ #bars{
     display: none;
-} */
+}
 /*<!--=======================[FOOTER end HERE]==============-->*/
 /*===============[MEDIA QUERY STARTS HERE]===========*/
 @media (max-width:450px){
     #heading nav #container  ul {
         display: none;
     }
-    #inp:checked~ #container ul{
+    #inp:checked~  #heading nav #container  ul{
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -305,7 +316,8 @@
         padding: 20px;
         border-radius: 10px;
         background-color: aliceblue;
-        line-height: 5%;
+        /* line-height: 5%; */
+        z-index: 5;
     }
     #bars{
         display: block;
@@ -316,6 +328,169 @@
         color: aliceblue;
         /* z-index: 50; */
     }
+    #heading nav #container ul a{
+        color: #000000;
+        gap: 5px;
+        font-size: 20px;
+    }
+    #container h2{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        text-decoration: underline;
+        width: 90px;
+        height: 90px;
+        border: 5px dashed rgb(229, 232, 234);
+        border-radius: 50%;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-size: 20px;
+        color: rgb(235, 233, 228);
+        transition: all 3s ease-in-out;
+        
+    }
+    #container h2:hover{
+        color: rgb(191, 165, 36);
+        transform: rotate(360deg);
+        border-radius: 100px;
+        font-size: 20px;
+    }
+    #container input{
+        display: none;
+    }
+    #container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background: black; 
+    }
+    /*------------==================================first section starts here===================================================-->*/
+    #ret{
+        flex-wrap: wrap; 
+        /* justify-content: center;  */
+        position:absolute;
+        top: 7rem;
+        width: 60%;
+        left: 4rem;
+        z-index: 3;
+        text-align: center;
+    }
+    #ret h1{
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 3rem;
+     }
+     #ret h1 span{
+         color: darkgoldenrod;
+     }
+     #ret h2{
+         margin-top: 30px;
+     }
+     #ret h2 a{
+         color: aliceblue;
+         font-weight: bold;
+         font-size: 2rem;
+         text-decoration: none;
+        
+      }
+      #ret h2 a:hover{
+         color: rgb(247, 6, 6);
+         text-decoration: underline;
+     }
+      #ret h2 span{
+          color: rgb(250, 23, 7);
+          font-size: 2rem;
+     }
+    /*------------====================================second section end============================================================---*/
+    #choose{
+        width: 100%;
+        height: auto;
+        background: #111010;
+        border: 1px solid black;
+        color: aliceblue;
+        flex-wrap: wrap;
+        padding: 2rem;
+        
+    }
+    #choose div h3{
+        margin-top: 200px;
+    }
+    
+    #choose h1{
+        font-size: 40px;
+    }
+    #options{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        background: #161515;
+        box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
+        flex-direction: column;
+    }
+    #options div{
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+        flex-direction: column;
+    }
+    #options .text{
+        /* margin-top: 70px; */
+        font-weight: bold;
+        font-size: 1.2em;
+        /* padding: 2rem; */
+       
+    } 
+    #options .text2{
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-top: 40rem;
+    }
+    
+    #options .text h2 img{
+        width: 40px;
+        height: 40px;
+    }
+    .img3{
+        position: absolute;
+        width: 70%;
+        border-radius: 180px;
+        object-fit: cover;
+        border:5px outset aliceblue;
+        margin-right: 50px;
+       
+        
+    }
+    .img4{
+        width: 400px;
+        border-top-right-radius: 60px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 60px;
+        position: absolute;
+        margin-top:100%;
+        padding: 2rem;
+        right: 1%;
+        
+    }
+    
+    /*------------==================================sixth section starts here===================================================-->*/
+    #contact center input{
+        width:250PX;
+        height:7vh;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+}
+#contact .signup {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+    
     
 }
   
