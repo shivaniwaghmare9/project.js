@@ -250,6 +250,40 @@ body{
 #element #nme{
     color: aliceblue;
 }
+/*===================================================js form===============================================================================*/
+#form2{
+    padding-top: 20px;
+    color: aliceblue;
+     box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+     border: 5px solid aliceblue;
+     border-radius: 30px;
+}
+#data1{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    
+}
+#form2 input{
+        width:50%;
+        height: 35px;
+        background:rgba(230, 227, 222, 0.116);
+        border: none;
+        outline: none;
+        font-size: 1em;
+        color: rgb(246, 249, 251);
+        padding: 0 35px 0 5px;
+        border-bottom: 2px solid aliceblue;
+        border-radius: 10px;
+        padding-left: 20px;
+}
+#form2 #submit{
+    background: aliceblue;
+    border-radius: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+
 
 
 }
