@@ -1194,11 +1194,11 @@ margin-top: 160px;
 }
 .img3{
     position: absolute;
-    width: 100%;
+    width: 80%;
     border-radius: 180px;
     object-fit: cover;
     border:5px outset aliceblue;
-    margin-right: 20px;
+    margin-right: 40px;
    
     
 }
