@@ -1259,8 +1259,8 @@ margin-top: 160px;
     
 } */
 #box2 div{
-    width: 275px;
-    height: 27vh;
+    width: 100%;
+    height: 300px;
     border: 5px solid black;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
@@ -1271,9 +1271,7 @@ margin-top: 160px;
 }
 #box2 {
    
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2,ifr); */
+    
     display: grid;
     grid-template-columns: auto;
     gap: 14rem;
