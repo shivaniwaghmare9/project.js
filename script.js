@@ -87,7 +87,7 @@ let booknow=()=>{
          footer: '<a href="form.html">Why do I have this issue?</a>'
 
          })
-        //location.href="form.html";
+        location.href="form.html";
       }
 }
 
