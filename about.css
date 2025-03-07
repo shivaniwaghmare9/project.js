@@ -188,6 +188,7 @@
 }
 .content h1{
     font-size: 25px;
+    font-family: "Charm", serif;
 }
 .content button{
     padding-top: 10px;
@@ -237,6 +238,7 @@
 }
 #vision h1{
     font-size: 50px;
+    font-family: "Charm", serif;
 }
 #vision .btn1{
     background:red;
@@ -288,6 +290,7 @@
 }
 #latest div h1{
     font-size: 50px;
+    font-family: "Charm", serif;
 }
 #latest .article div{
     width: auto;
@@ -347,6 +350,9 @@
     background: #0f0e0e;
     flex-wrap: wrap;
     padding: 2rem;
+    font-family: "Oleo Script", system-ui;
+    
+
 }
 #contact p{
    font-size: 20px;
