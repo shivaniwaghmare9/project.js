@@ -1203,18 +1203,18 @@ margin-top: 160px;
     border-radius: 180px;
     object-fit: cover;
     border:5px outset aliceblue;
-    margin-right: 40px;
-   
+    margin-right: 80px;
+   a
     
 }
 .img4{
-    width: 400px;
+    width: 100%;
     border-top-right-radius: 60px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 60px;
     position: absolute;
-    margin-top:55%;
+    margin-top:70%;
     padding: 2rem;
     right: 1%;
     
