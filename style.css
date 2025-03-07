@@ -14,7 +14,9 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background: black; 
+    background:transparent; 
+    position: absolute;
+    z-index: 5;
 }
 
 #container h2{
@@ -23,12 +25,12 @@
     text-decoration: underline;
     width: 115px;
     height: 115px;
-    border: 5px dashed rgb(229, 232, 234);
+    border: 5px dashed rgb(16, 16, 16);
     border-radius: 50%;
     padding-left: 15px;
     padding-top: 10px;
     font-size: 30px;
-    color: rgb(235, 233, 228);
+    color: rgb(19, 18, 18);
     transition: all 3s ease-in-out;
 }
 #container h2:hover{
@@ -42,7 +44,7 @@
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #container h2 span:hover{
-    color: rgb(236, 236, 227);
+    color: rgb(14, 14, 13);
 }
 #container  ul {
     display: flex;
@@ -52,7 +54,7 @@
 }
 #container  a{
     text-decoration: none;
-    color: rgb(240, 233, 233);
+    color: black;
     font-family: "Lobster", serif;
 }
 #container li{
@@ -93,8 +95,8 @@
 
   .swiper-slide img {
     display: block;
-    width: 95%;
-    height: auto;
+    width: 100%;
+    height:100vh;
     /* object-fit: cover; */
     border-radius: 20px;
   }
@@ -121,7 +123,7 @@
      flex-wrap: wrap; 
      justify-content: center; 
      position:absolute;
-     top: 15rem;
+     top: 10rem;
      width: 60%;
      left: 19rem;
      z-index: 3;
@@ -138,7 +140,7 @@
 #ret p{
     font-size: 1.5rem;
     font-weight: 700;
-    color: red;
+    color: rgb(240, 234, 234);
 }
 #ret button{
     margin-top: 20px;
@@ -359,7 +361,7 @@
     height:500px;
     /* border: 1px solid black; */
     background-size: cover;
-    background-image: url("./project.images/photoback.avif");
+    background-image: url("https://images.pexels.com/photos/9828293/pexels-photo-9828293.jpeg?auto=compress&cs=tinysrgb&w=600");
     border-radius: 60px;
     
 }
