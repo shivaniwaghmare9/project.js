@@ -16,7 +16,7 @@
 }
 
 #container h2{
-    font-family: "Satisfy", cursive;
+    /* font-family: "Satisfy", cursive; */
     font-weight: bold;
     text-decoration: underline;
     width: 115px;
@@ -405,7 +405,7 @@ margin-top: 130px;
     position:absolute;
     top: 7rem;
     width: 60%;
-    left: 3rem;
+    left: 4rem;
     z-index: 3;
     text-align: center;
 }
