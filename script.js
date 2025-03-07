@@ -84,12 +84,15 @@ let booknow=()=>{
          icon: "error",
          title: "Oops...",
          text: "Please First Signup !",
-         footer: '<a href="from.html">Why do I have this issue?</a>'
+         footer: '<a href="form.html">Why do I have this issue?</a>'
 
          })
-       //  location.href="from.html";
+        //location.href="form.html";
       }
-   
+}
+
+let logout=()=>{
+   localStorage.clear();
 }
 
 

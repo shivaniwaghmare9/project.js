@@ -13,9 +13,9 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background:transparent;
-    position: absolute;
-    z-index: 5;
+    background: #000000;
+    /* position: absolute;
+    z-index: 5; */
 }
 
 #container h2{
