@@ -818,7 +818,7 @@ margin-top: 160px;
         border-radius: 10px;
         background-color: aliceblue;
         /* line-height: 8%; */
-        z-index: 5;
+        /* z-index: 5; */
     }
     #heading nav #container ul a{
         color: #000000;
@@ -865,7 +865,8 @@ margin-top: 160px;
         align-items: center;
         width: 100%;
         height: auto;
-        background: black; 
+        background: transparent; 
+        z-index: 5;
     }
     /*------------==================================first section starts here===================================================-->*/
 /* ///-------------------------============-swiper-slider========================----------------------- */
@@ -926,7 +927,7 @@ margin-top: 160px;
 #ret h1{
    font-size: 1.7rem;
    font-weight: 700;
-   color: black;
+   color:aliceblue;
 }
 #ret h1 span{
    color: #f70707da;
