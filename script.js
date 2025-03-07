@@ -75,4 +75,20 @@ let clickme2=()=>{
     
 }
 
+let booknow=()=>{
+   if(localStorage.getItem("name")){
+      location.href="bookform.html"
+   }
+   else{
+      Swal.fire({
+         icon: "error",
+         title: "Oops...",
+         text: "Please First Signup !",
+         footer: '<a href="#">Why do I have this issue?</a>'
+
+         })
+      }
+   
+}
+
 
