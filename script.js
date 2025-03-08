@@ -84,10 +84,9 @@ let booknow=()=>{
          icon: "error",
          title: "Oops...",
          text: "Please First Signup !",
-         footer: '<a href="form.html">Why do I have this issue?</a>'
+         footer: '<a href="form.html">Go to Signup Page</a>'
 
          })
-        location.href="form.html";
       }
 }
 

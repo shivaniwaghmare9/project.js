@@ -100,7 +100,7 @@ let fill=()=>{
     let fillnumber=document.querySelector("#mobile").value
      let fillaadhhar=document.querySelector("#aadhhar").value
      let filllicence=document.querySelector("#licence").value
-     let fillpickdate=document.querySelector("#pickdate")
+     let fillpickdate=document.querySelector("#pickdate").value
      let filldate=document.querySelector("#dropedate").value
      let filldesti=document.querySelector("#desti").value
      let filllocation=document.querySelector("#location").value
