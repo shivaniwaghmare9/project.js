@@ -915,7 +915,7 @@ border-radius: 30px;
 }
 
 #ret button{
-   margin-top: 140px;
+   margin-top: 180px;
    padding-top: 10px;
    padding-left: 15px;
    padding-right: 15px;
@@ -1134,7 +1134,7 @@ border-radius: 30px;
     
 }
 #choose div h3{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 #choose h1{
@@ -1145,7 +1145,7 @@ border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: none;
     background: #161515;
     box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
     flex-direction: column;
