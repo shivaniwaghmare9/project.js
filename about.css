@@ -545,7 +545,7 @@
     width: 100%;
     display: flex; 
     /* gap: 200px; */
-    margin-top: 150px;
+    margin-top: none;
     background: #000000;
     flex-wrap: wrap;
     border-radius: 30px;
