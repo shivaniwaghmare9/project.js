@@ -899,7 +899,7 @@ margin-top: 160px;
   .swiper-slide img {
     display: block;
     width: 95%;
-    height: auto;
+    height: 100vh;
     /* object-fit: cover; */
     border-radius: 20px;
   }
