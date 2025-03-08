@@ -94,4 +94,8 @@ let logout=()=>{
    localStorage.clear();
 }
 
+let sing=()=>{
+   location.href="form.html"
+}
+
 
