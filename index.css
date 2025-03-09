@@ -47,11 +47,13 @@
     padding: 1rem;
     font-size: 25px;
     border-radius: 30px;
+    background: rgb(65, 179, 224);
+    color: aliceblue;
     
 }
 #home .box2 button:hover{
-    background: rgb(65, 179, 224);
-    color: aliceblue;
+    background: rgba(226, 228, 229, 0.584);
+    color: rgb(17, 17, 18);
 }
 
 @media (max-width:450px){
