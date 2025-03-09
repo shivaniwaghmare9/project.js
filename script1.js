@@ -104,7 +104,7 @@ let login=()=>{
   let localpass=localStorage.getItem("pass",inppassword)
 
   if(inpmail==localemail && inppassword==localpass){
-    location.href="index.html";
+    location.href="home.html";
     return false;
 }
 else {

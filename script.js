@@ -1,17 +1,5 @@
 
 
-// VANTA.NET({
-//    el: "#contact",
-//    mouseControls: true,
-//    touchControls: true,
-//    gyroControls: false,
-//    minHeight: 200.00,
-//    minWidth: 200.00,
-//    scale: 1.00,
-//    scaleMobile: 1.00,
-//    color: 0xb03838,
-//    backgroundColor: 0x8070d
-//  })
 
 
   
@@ -69,12 +57,12 @@ let sing=()=>{
    location.href="form.html"
 }
 
- let demoss=()=>{
-   location.href="index.html";
-//    Swal.fire({
-//       icon: "success",
-//       title: "Done",
-//       text: "Are u interested !",
-//       footer: '<a href="index.html">Why do I have this issue?</a>'
-//     });
+ let view=()=>{
+   // location.href="form.html";
+   Swal.fire({
+      icon: "success",
+      title: "Done",
+      text: "Please First Signup !",
+      footer: '<a href="form.html">Go to Signup Page</a>'
+    });
  }
