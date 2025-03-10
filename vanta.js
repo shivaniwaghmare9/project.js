@@ -3,7 +3,7 @@
 
 
  VANTA.NET({
-  el: "",
+  el: "#bdy",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
