@@ -9,9 +9,9 @@
  body{
     width: 100%;
     height: 100vh;
-    background:  linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142));
+   /* background:  linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142));*/
      display: flex;
-    background-image: url("https://images.pexels.com/photos/4512439/pexels-photo-4512439.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-image: url("https://t4.ftcdn.net/jpg/07/00/99/97/240_F_700999714_D78AUZytwNyGt7vN1Vk6GK3B8EnoHVi0.jpg");
     background-size: cover;
     
 }
@@ -20,7 +20,7 @@
     font-weight: bold;
     text-decoration: underline;
     width: 105px;
-    height: 105px;
+    height: 115px;
     border: 5px dashed rgb(254, 251, 251);
     border-radius: 50%;
     padding-left: 20px;
@@ -58,8 +58,8 @@ h2{
     border-radius: 10px;
     margin-top: 5%;
     margin-left: 25%;
-    box-shadow: 5px 7px 10px rgb(52, 60, 68),-5px -7px 10px rgb(62, 74, 78);
-    background: rgba(0, 0, 0, 0.066);
+    box-shadow: 5px 7px 10px rgb(13, 13, 14),-5px -7px 10px rgb(15, 16, 16);
+    background: rgba(13, 13, 13, 0.445);
    
 }
 

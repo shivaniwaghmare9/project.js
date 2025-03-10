@@ -522,7 +522,7 @@ border-radius: 30px;
     font-size: 1em;
     flex-wrap: wrap;
     border-radius: 30px;
-    background: #0000007a;
+    background: #24232353;
     box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
 }
 .book1 h1{
@@ -607,12 +607,12 @@ border-radius: 30px;
     height: auto;
     border: 1px solid black;
     padding-top: 60px;
-    background: #0f0e0e;
+    background: #171717;
     flex-wrap: wrap;
 }
 #contact p{
    font-size: 20px;
-   color: aliceblue;
+   color: rgb(250, 249, 246);
 }
 #contact center input{
         width:400PX;
@@ -620,6 +620,8 @@ border-radius: 30px;
         font-size: 20px;
         padding-left: 20px;
         border-radius: 20px;
+        background: transparent;
+        border: 1px solid rgba(195, 192, 190, 0.694);
 }
 #contact .signup div{
     width: 100%;
@@ -631,12 +633,13 @@ border-radius: 30px;
     padding-left: 20px;
     padding-top: 40px;
     flex-wrap: wrap;
+    background: #22212171;
    
 }
 #contact .signup {
     display: flex;
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
+    background: #000000;
 }
 #contact .signup h1 a{
     color: aliceblue;
@@ -667,13 +670,14 @@ border-radius: 30px;
 #contact .signup h1{
     font-size: 32px;
     transition: all 3s ease;
+    color: red;
 }
 #contact .signup h1:hover{
-    color: rgb(243, 31, 3);
+    color: rgb(249, 247, 247);
 }
 #contact .signup a{
     /* text-decoration: none; */
-    color: aliceblue;
+    color: rgb(211, 201, 182);
     font-size: 20px;
 }
 
