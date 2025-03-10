@@ -194,17 +194,17 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* background-color: #0f0e0e; */
+    background: #171717;
     color: aliceblue;
-    background-image: url("https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=600");
-    background-size: cover;
+    /* background-image: url("https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover; */
     
 }
 .aboutcontains{
     display: flex; 
     gap: 200px;
     margin-top: 150px;
-    /* background: #000000; */
+    background: #000000;
     /* background: rgba(135, 207, 235, 0.473); */
     flex-wrap: wrap;
     border-radius: 30px;
@@ -288,14 +288,14 @@
 #services{
   width: 100%;
   height: auto;
-  /* background-color: #0f0e0e; */
+  background: #171717;
   flex-wrap: wrap;
   border: 1px solid rgb(9, 9, 9);
-  background-image: url("https://media.istockphoto.com/id/520364869/photo/blue-light-underground.jpg?s=612x612&w=0&k=20&c=E5Lj2V335cyxtGNJfiqIL0VT6VW6FajSxnxPm8dE7a8=");
-  background-size: cover;
+  /* background-image: url("https://media.istockphoto.com/id/520364869/photo/blue-light-underground.jpg?s=612x612&w=0&k=20&c=E5Lj2V335cyxtGNJfiqIL0VT6VW6FajSxnxPm8dE7a8=");
+  background-size: cover; */
 }
 #services .rent{
-  margin-top: 150px; 
+  margin-top: 80px; 
 }
 #services h3 h1{
     font-weight: 700;
@@ -406,26 +406,27 @@ border-radius: 30px;
 #choose{
     width: 100%;
     height: auto;
-    /* background: #111010; */
+    background: #171717;
     border: 1px solid black;
     color: aliceblue;
     flex-wrap: wrap;
-    background-image: url("https://media.istockphoto.com/id/916336660/photo/self-drive-autonomous-vehicle.jpg?s=612x612&w=0&k=20&c=OnU-NrFM4ATp9GW55nbKBOeA4gtoQHe24avJxbVMzNQ=");
-    background-size: cover;
+    /* background-image: url("https://media.istockphoto.com/id/916336660/photo/self-drive-autonomous-vehicle.jpg?s=612x612&w=0&k=20&c=OnU-NrFM4ATp9GW55nbKBOeA4gtoQHe24avJxbVMzNQ=");
+    background-size: cover; */
 }
 #choose h3{
     color: red;
-     margin-top: 80px
-}#choose h1{
-    font-family: "Charm", serif;
+     margin-top: 60px
 }
+/* #choose h1{
+    font-family: "Charm", serif;
+} */
 
 #options{
     height: 700px;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 100px;
-    background: #161515c7;
+    margin-top: 80px;
+    background: #030303;
     /* border: 1px solid rgb(238, 234, 234); */
     flex-wrap: wrap;
     box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
@@ -479,20 +480,20 @@ border-radius: 30px;
     height: auto;
     font-weight: bold;
     flex-wrap: wrap;
-    /* background-color: #0f0e0e; */
+    background: #171717;
     border: 1px solid rgb(15, 15, 15);
-    background-image: url("https://media.istockphoto.com/id/675433470/photo/self-drive-autonomous-vehicle.jpg?s=612x612&w=0&k=20&c=sG0EqxH9u0V2mWAQqkL2sbZUQDfzQyywHZXUqz8mZQ0=");
-    background-size: cover;
+    /* background-image: url("https://media.istockphoto.com/id/675433470/photo/self-drive-autonomous-vehicle.jpg?s=612x612&w=0&k=20&c=sG0EqxH9u0V2mWAQqkL2sbZUQDfzQyywHZXUqz8mZQ0=");
+    background-size: cover; */
 }
 #fleets h3 {
       font-weight: 700;
-      margin-top: 100px;
+      margin-top: 50px;
 }
  #fleets h1{
       font-size: 65px;
       color: aliceblue;
-      font-family: "Charm", serif;
-     
+      /* font-family: "Charm", serif;
+      */
       
   }
 /*------------====================================sixth section end============================================================---*/
@@ -547,15 +548,15 @@ border-radius: 30px;
     width: 100%;
     height: auto;
     font-weight: bold;
-    /* background: #0f0e0e; */
-    background-image: url("./project.images/istockphoto-109722688-1024x1024\ \(1\).jpg");
-    background-size: cover;
+    background: #171717;
+    /* background-image: url("./project.images/istockphoto-109722688-1024x1024\ \(1\).jpg");
+    background-size: cover; */
     color: aliceblue;
     border: 1px solid rgb(16, 16, 16);
     
 }
 #testimonials h3{
-   margin-top: 90px;
+   margin-top: 60px;
 }
 #testimonials h1{
     font-size: 4em;
@@ -563,7 +564,7 @@ border-radius: 30px;
 .Swiper3 {
     width: 100%;
     height: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     
 }
 #testimonials .Swiper3{
@@ -589,7 +590,7 @@ border-radius: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background:#1110109a;
+    background:#0b0b0bfe;
     box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
 }
 .Swiper3 div img{
