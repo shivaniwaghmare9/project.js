@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENTER POINT</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body id="home">
      
  
-  <div class="box1">
+  <div class="box1" data-aos="zoom-in-down">
 
           <h2>
         <img src="https://carvan.wpengine.com/wp-content/themes/carvan/assets/images/light-logo.svg" alt="img">
@@ -25,7 +26,7 @@
     <p>Carvan – Car Dealer, Rental & Listing Website WordPress Theme. Create a magnificent automotive website design with ease. this design is tailored to meet the demands of rental agencies, Pre Owned, Used Card Business, Auto Rentals.</p><br><br>
 
 
-     <button onclick="view()">Explore Demos</button>
+     <button onclick="view()"  data-aos="zoom-in-left">Explore Demos</button>
 
  </div>  
    
@@ -35,5 +36,10 @@
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
   </body>
 </html>

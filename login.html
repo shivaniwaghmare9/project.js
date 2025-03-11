@@ -12,15 +12,16 @@
 <body >
 
     <div id="login"  data-aos="flip-left"
-               data-aos-duration="2500">
+               data-aos-duration="2000">
         <form >
-            <h2>LOGIN</h2>
+            <h2 data-aos="zoom-in"
+            data-aos-duration="2500">LOGIN</h2>
             <div class="inp">
                 <span class="icon">
                     <i class="fa-solid fa-envelope"></i>
                 </span>
                 <p id="emailerror"></p>
-                <input type="email" required id="mail">
+                <input type="email" required id="mail" data-aos="zoom-in-left" data-aos-duration="2500">
                 <label>Email</label>
             </div>
             <div class="inp">
@@ -28,7 +29,7 @@
                     <i class="fa-solid fa-lock"></i>
                 </span>
                 <p id="passerror"></p>
-                <input type="text" required id="password">
+                <input type="text" required id="password" data-aos="zoom-in-right"data-aos-duration="2500">
                 <label>Password</label>
             </div>
             <div class="remember">
@@ -36,10 +37,10 @@
                 <a href="#">Forget Password</a>
 
             </div>
-           <div id="insert">
-            <input type="submit" value="Login" onclick="return login()" id="btn">
+           <div id="insert" >
+            <input type="submit" value="Login" onclick="return login()" id="btn" data-aos="zoom-in-right"data-aos-duration="2500">
            </div>
-           <div id="register">
+           <div id="register" >
             <p>Don't have an account?<a href="#">Register</a></p>
 
            </div>
