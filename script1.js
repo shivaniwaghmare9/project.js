@@ -111,7 +111,7 @@ else {
   Swal.fire({
     icon: "error",
     title: "Oops...",
-    text: "Something went wrong!",
+    text: "Invalid Email-or Password!",
     footer: '<a href="#">Why do I have this issue?</a>'
   });
   
