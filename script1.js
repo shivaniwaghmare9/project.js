@@ -108,8 +108,14 @@ let login=()=>{
     return false;
 }
 else {
+  Swal.fire({
+    icon: "error",
+    title: "Oops...",
+    text: "Something went wrong!",
+    footer: '<a href="#">Why do I have this issue?</a>'
+  });
   
-    alert("invalid Email or password")
+    //alert("invalid Email or password")
    // errorpass.innerHTML="invalid "
 }
 return false;
