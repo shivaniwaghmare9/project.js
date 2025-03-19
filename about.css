@@ -412,9 +412,10 @@
 #contact .signup h1{
     font-size: 32px;
     transition: all 3s ease;
+    color: #f70707;
 }
 #contact .signup h1:hover{
-    color: rgb(243, 31, 3);
+    color: rgb(253, 249, 248);
 }
 #contact .signup a{
     /* text-decoration: none; */
