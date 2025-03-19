@@ -122,7 +122,7 @@
 #ourcar{
     width: 100%;
     /* height: auto; */
-    background: #131212;
+    background-color: #0f0e0e;
     border: 1px solid rgb(7, 7, 7);
 }
 .car{
@@ -157,7 +157,7 @@
 #choose{
     width: 100%;
     height: auto;
-    background: #111010;
+    background-color: #0f0e0e;
     border: 1px solid black;
     color: aliceblue;
     flex-wrap: wrap;
@@ -171,7 +171,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 150px;
-    background: #161515;
+    background: black;
     /* border: 1px solid rgb(238, 234, 234); */
     flex-wrap: wrap;
     box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
@@ -244,6 +244,8 @@
         font-size: 20px;
         padding-left: 20px;
         border-radius: 20px;
+        background: transparent;
+        border: 1px solid rgba(210, 199, 178, 0.313);
 }
 #contact .signup div{
     width: 100%;
@@ -260,6 +262,7 @@
 #contact .signup {
     display: flex;
     justify-content: space-evenly;
+    background: black;
     /* flex-wrap: wrap; */
 }
 #contact .signup h1 a{
@@ -288,16 +291,17 @@
 #contact .signup i:hover{
     background-color: darkgoldenrod;
     border: 5px solid darkred;
-}  
+}      
 #contact .signup h1{
     font-size: 30px;
     transition: all 3s ease;
+    color: #f70707;
 }
 #contact .signup h1:hover{
-    color: rgb(243, 31, 3);
+    color: rgb(251, 248, 247);
 }
 #contact .signup a{
-    text-decoration: none;
+    /* text-decoration: none; */
     color: aliceblue;
     font-size: 20px;
 }
