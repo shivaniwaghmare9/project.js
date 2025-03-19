@@ -270,6 +270,7 @@ margin-top: 130px;
         font-size: 20px;
         padding-left: 20px;
         border-radius: 20px;
+        background: transparent;
 }
 #contact .signup div{
     width: 100%;
@@ -318,12 +319,13 @@ margin-top: 130px;
 #contact .signup h1{
     font-size: 32px;
     transition: all 3s ease;
+    color: #f70707;
 }
 #contact .signup h1:hover{
     color: rgb(243, 31, 3);
 }
 #contact .signup a{
-    text-decoration: none;
+    /* text-decoration: none; */
     color: aliceblue;
     font-size: 20px;
 }
