@@ -639,7 +639,7 @@ border-radius: 30px;
 #contact .signup {
     display: flex;
     justify-content: space-evenly;
-    /* background: #000000; */
+    background:gray;
 }
 #contact .signup h1 a{
     color: aliceblue;
