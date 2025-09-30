@@ -1,3 +1,550 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: "Oleo Script", system-ui;
+}
+
+/*------------================================================================================================---*/
+/*------------==================================navbar section starts here===================================================-->*/
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #0c0c0c;
+}
+
+#container h2{
+   
+    font-weight: bold;
+    text-decoration: underline;
+    width: 115px;
+    height: 115px;
+    border: 5px dashed rgb(229, 232, 234);
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(235, 233, 228);
+    transition: all 3s ease-in-out;
+}
+#container h2:hover{
+    color: rgb(191, 165, 36);
+    transform: rotate(360deg);
+    border-radius: 100px;
+    font-size: 35px;
+}
+#container h2 span{
+    color: rgb(156, 130, 25);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#container h2 span:hover{
+    color: rgb(236, 236, 227);
+}
+#container  ul {
+    display: flex;
+    gap: 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#container  a{
+    text-decoration: none;
+    color: rgb(240, 233, 233);
+    font-family: "Lobster", serif;
+}
+#container li{
+    list-style: none;
+}
+#container  a:hover{
+    text-decoration: underline;
+    color: rgba(188, 8, 8, 0.737);
+}
+
+#container input{
+    outline-color: #f70707;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*==================================================first section===========================================================*/
+
+#img{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://img.freepik.com/premium-photo/sports-cars-collection-wallpaper-audi_970779-1395.jpg?ga=GA1.1.1179863856.1733368449&semt=ais_hybrid");
+    background-size: cover;
+    /* border-radius: 50px; */
+   
+}
+/*=====================================================second section====================================================*/
+#ret{
+    flex-wrap: wrap; 
+    justify-content: center; 
+    position:absolute;
+    top: 15rem;
+    width: 60%;
+    left: 19rem;
+    z-index: 3;
+    text-align: center;
+}
+#ret h1{
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 4rem;
+}
+#ret h1 span{
+    color: darkgoldenrod;
+}
+#ret h2{
+    margin-top: 30px;
+}
+#ret h2 a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+   
+ }
+ #ret h2 a:hover{
+    color: rgb(247, 6, 6);
+    text-decoration: underline;
+}
+ #ret h2 span{
+     color: rgb(250, 23, 7);
+     font-size: 2rem;
+}
+/*==========================================================================thirdsection==================================*/
+#tact{
+    width: 100%;
+    height: auto;
+    background: #171717;
+}
+.contact div{
+    margin-top: 40px; 
+    width: 600px;
+    height: 750px;
+    /* border: 1px solid rgb(12, 12, 12); */
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 2em;
+    
+}
+.shadow{
+    box-shadow: 5px 5px 13px rgb(25, 26, 27),-5px -5px 13px rgb(45, 49, 51);
+    background: black;
+    border-radius: 30px;
+}
+.contact{
+   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    color: aliceblue;
+}
+.contact div h4{
+    font-size: 20px;
+}
+.contact div h2 i{
+    font-size: 20px;
+    background: rgb(245, 22, 6);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+   
+}
+.contact div h2 i:hover{
+    color: #f8f2f2;
+
+}
+#form input{
+    color: rgb(21, 27, 32);
+    width: 60%;
+    height: 40px;
+    background: transparent;
+    display: grid;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding-left: 5px;
+    border-bottom:1px solid aliceblue;
+    
+}
+
+#submit {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+   background: rgb(247, 14, 2);
+    border: none;
+    font-size: 1.2em;
+    border-radius: 50px;
+    color: aliceblue;
+}
+#submit:hover{
+    color: black;
+    background-color: #f2181879;
+}
+#form p{
+    font-size: medium;
+}
+/*------------------------------------------------------footer starts----------------------------------------*/
+#contact {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding-top: 60px;
+    background: #171717;
+    flex-wrap: wrap;
+    font-family: "Oleo Script", system-ui;
+
+}
+#contact p{
+   font-size: 20px;
+   color: rgba(240, 248, 255, 0.84);
+}
+#contact center input{
+        width:400PX;
+        height:7vh;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+        background: transparent;
+        border: 1px solid rgba(250, 235, 215, 0.628);
+}
+#contact .signup div{
+    width: 100%;
+    height: auto;
+    border-right: 1px solid aliceblue;
+    flex-direction: column;
+    padding-top: 40px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+   
+}
+#contact .signup {
+    display: flex;
+    justify-content: space-evenly;
+    background: #000000;
+}
+#contact .signup h1 a{
+    color: rgb(245, 242, 242);
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+#contact .signup h1:hover{
+    color: rgb(242, 238, 238);
+}
+#contact .signup  i{
+    margin-top: 20px;
+     background-color: black;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     border-radius: 100%;
+     font-size: 20px;
+      color: aliceblue;
+      border: 5px solid aliceblue;
+      gap: 10px;
+}
+#contact .signup i:hover{
+    background-color: darkgoldenrod;
+    border: 5px solid darkred;
+}  
+#contact .signup h1{
+    font-size: 32px;
+    transition: all 3s ease;
+    color: #f70707;
+}
+#contact .signup h1:hover{
+    color: rgb(252, 251, 251);
+}
+#contact .signup a{
+    /* text-decoration: none; */
+    color: aliceblue;
+    font-size: 20px;
+}
+#inp{
+    display: none;
+}
+#bars{
+    display: none;
+}
+/*<!--=======================[FOOTER end HERE]==============-->*/
+/*===============[MEDIA QUERY STARTS HERE]===========*/
+/*===============[MEDIA QUERY STARTS HERE]===========*/
+@media (max-width:450px){
+    #heading nav #container  ul {
+        display: none;
+    }
+    #inp:checked~  #heading nav #container  ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 12%;
+        right:7%;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: aliceblue;
+        /* line-height: 5%; */
+        z-index: 5;
+    }
+    #bars{
+        display: block;
+        position: absolute;
+        top: 3%;
+        right: 9%;
+        font-size: 35px;
+        color: aliceblue;
+        /* z-index: 50; */
+    }
+    #heading nav #container ul a{
+        color: #000000;
+        gap: 5px;
+        font-size: 20px;
+    }
+    #container h2{
+        font-weight: bold;
+        text-decoration: underline;
+        width: 90px;
+        height: 90px;
+        border: 5px dashed rgb(229, 232, 234);
+        border-radius: 50%;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-size: 20px;
+        color: rgb(235, 233, 228);
+        transition: all 3s ease-in-out;
+        
+    }
+    #container h2:hover{
+        color: rgb(191, 165, 36);
+        transform: rotate(360deg);
+        border-radius: 100px;
+        font-size: 20px;
+    }
+    #container input{
+        display: none;
+    }
+    #container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background: black; 
+    }
+    /*------------==================================first section starts here===================================================-->*/
+    #ret{
+        flex-wrap: wrap; 
+        /* justify-content: center;  */
+        position:absolute;
+        top: 7rem;
+        width: 60%;
+        left: 4rem;
+        z-index: 3;
+        text-align: center;
+    }
+    #ret h1{
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 3rem;
+     }
+     #ret h1 span{
+         color: darkgoldenrod;
+     }
+     #ret h2{
+         margin-top: 30px;
+     }
+     #ret h2 a{
+         color: aliceblue;
+         font-weight: bold;
+         font-size: 2rem;
+         text-decoration: none;
+        
+      }
+      #ret h2 a:hover{
+         color: rgb(247, 6, 6);
+         text-decoration: underline;
+     }
+      #ret h2 span{
+          color: rgb(250, 23, 7);
+          font-size: 2rem;
+     }
+    /*------------====================================second section end============================================================---*/
+    #tact{
+        width: 100%;
+        height: auto;
+        background: #171717;
+        padding: 2rem;
+    }
+    .contact div{
+        margin-top: 40px; 
+        width: 100%;
+        height: auto;
+        /* border: 1px solid rgb(12, 12, 12); */
+        flex-direction: column;
+        padding-left: 40px;
+        padding-top: 40px;
+        font-size: 2em;
+        
+    }
+    .shadow{
+        box-shadow: 5px 5px 13px rgb(25, 26, 27),-5px -5px 13px rgb(45, 49, 51);
+        background: black;
+        border-radius: 30px;
+    }
+    .contact{
+       display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+        color: aliceblue;
+        flex-direction: column;
+    }
+    .contact div h2 i{
+        font-size: 30px;
+        background: rgb(245, 22, 6);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 50%;
+       
+    }
+    .contact div h2 i:hover{
+        color: #f8f2f2;
+    
+    }
+    #form input{
+        color: rgb(21, 27, 32);
+        width: 60%;
+        height: 40px;
+        background: transparent;
+        display: grid;
+        justify-content: center;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-size: 25px;
+        padding-left: 5px;
+        border-bottom:1px solid aliceblue;
+        
+    }
+    
+    #submit {
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+       background: rgb(247, 14, 2);
+        border: none;
+        font-size: 1.4em;
+        border-radius: 50px;
+        color: aliceblue;
+    }
+    #submit:hover{
+        color: black;
+        background-color: #f2181879;
+    }
+    #form p{
+        font-size: large;
+    }
+    /*===============================================footer starts===================================================================================*/
+
+
+       
+#contact {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding-top: 60px;
+    background: #0f0e0e;
+    flex-wrap: wrap;
+}
+#contact p{
+   font-size: 20px;
+   color: whitesmoke;
+}
+#contact center input{
+        width:250PX;
+        height:7vh;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+}
+#contact .signup div{
+    width: 100%;
+    height: auto;
+    border-right: 1px solid aliceblue;
+    flex-direction: column;
+    padding-top: 40px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+   
+}
+#contact .signup {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#contact .signup h1 a{
+    color: rgb(215, 219, 222);
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+#contact .signup h1:hover{
+    color: rgb(243, 12, 8);
+}
+#contact .signup  i{
+    margin-top: 20px;
+     background-color: black;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     border-radius: 100%;
+     font-size: 20px;
+      color: aliceblue;
+      border: 5px solid aliceblue;
+      gap: 10px;
+}
+#contact .signup i:hover{
+    background-color: darkgoldenrod;
+    border: 5px solid darkred;
+}  
+#contact .signup h1{
+    font-size: 32px;
+    transition: all 3s ease;
+}
+#contact .signup h1:hover{
+    color: rgb(243, 31, 3);
+}
+#contact .signup a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/*<!--=======================[FOOTER end HERE]==============-->*/
+} */
 *{
     padding: 0px;
     margin: 0px;
@@ -545,13 +1092,3 @@
 
 /*<!--=======================[FOOTER end HERE]==============-->*/
 }
-  
-   
-
-
-
-
-
-
-
-
