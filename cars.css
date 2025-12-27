@@ -1,3 +1,544 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: "Oleo Script", system-ui;
+}
+/*------------================================================================================================---*/
+/*------------==================================navbar section starts here===================================================-->*/
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #000000;
+    /* position: absolute;
+    z-index: 5; */
+}
+
+#container h2{
+
+    font-weight: bold;
+    text-decoration: underline;
+    width: 115px;
+    height: 115px;
+    border: 5px dashed rgb(229, 232, 234);
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(235, 233, 228);
+    transition: all 3s ease-in-out;
+}
+#container h2:hover{
+    color: rgb(191, 165, 36);
+    transform: rotate(360deg);
+    border-radius: 100px;
+    font-size: 35px;
+}
+#container h2 span{
+    color: rgb(156, 130, 25);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#container h2 span:hover{
+    color: rgb(236, 236, 227);
+}
+#container  ul {
+    display: flex;
+    gap: 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#container  a{
+    text-decoration: none;
+    color: rgb(240, 233, 233);
+    font-family: "Lobster", serif;
+}
+#container li{
+    list-style: none;
+}
+#container  a:hover{
+    text-decoration: underline;
+    color: rgba(188, 8, 8, 0.737);
+}
+
+#container input{
+    outline-color: #f70707;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*==================================================first section===========================================================*/
+
+#img{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    /* border-radius: 50px; */
+   
+}
+/*=====================================================second section====================================================*/
+#ret{
+    flex-wrap: wrap; 
+    justify-content: center; 
+    position:absolute;
+    top: 15rem;
+    width: 60%;
+    left: 19rem;
+    z-index: 3;
+    text-align: center;
+}
+#ret h1{
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 4rem;
+}
+#ret h1 span{
+    color: darkgoldenrod;
+}
+#ret h2{
+    margin-top: 30px;
+}
+#ret h2 a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+   
+ }
+ #ret h2 a:hover{
+    color: rgb(247, 6, 6);
+    text-decoration: underline;
+}
+ #ret h2 span{
+     color: rgb(250, 23, 7);
+     font-size: 2rem;
+}
+/*==========================================================================thirdsection==================================*/
+#ourcar{
+    width: 100%;
+    /* height: auto; */
+    background-color: #0f0e0e;
+    border: 1px solid rgb(7, 7, 7);
+}
+.car{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+   
+}
+.car div{
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    margin-top: 130px;
+    flex-wrap: wrap;
+}
+.car div img{
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+   
+}
+
+.car div h1{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+/*================================================fourth section==============================================================================*/
+#choose{
+    width: 100%;
+    height: auto;
+    background-color: #0f0e0e;
+    border: 1px solid black;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+#choose h3{
+    color: red;
+     margin-top: 100px
+}
+#options{
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    background: black;
+    /* border: 1px solid rgb(238, 234, 234); */
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
+}
+#choose h1{
+    font-size: 50px;
+    font-family: "Charm", serif;
+}
+#options div{
+    width: 400px;
+    height: auto;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+}
+#options .text{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 1.3em;
+} 
+#options .text h2 img{
+    width: 50px;
+    height: 50px;
+}
+#options .text2 h2 img{
+    width: 50px;
+    height: 50px;
+}
+#options .text2{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.img1{
+    position: absolute;
+    width: 400px;
+    border-radius: 180px;
+    object-fit: cover;
+    border:5px outset aliceblue;
+    
+}
+.img2{
+    border-top-right-radius: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    position: absolute;
+    margin-top: 25%;
+    
+}
+
+/*------------------------------------------------------footer starts----------------------------------------*/
+
+  
+   
+#contact {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding-top: 60px;
+    background: #0f0e0e;
+    flex-wrap: wrap;
+}
+#contact p{
+   font-size: 20px;
+   color: aliceblue;
+}
+#contact center input{
+        width:400PX;
+        height:7vh;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+        background: transparent;
+        border: 1px solid rgba(210, 199, 178, 0.313);
+}
+#contact .signup div{
+    width: 100%;
+    height: auto;
+    border-right: 1px solid aliceblue;
+    flex-direction: column;
+    padding-top: 40px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+   
+}
+#contact .signup {
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+    /* flex-wrap: wrap; */
+}
+#contact .signup h1 a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+#contact .signup h1:hover{
+    color: rgb(243, 12, 8);
+}
+#contact .signup  i{
+    margin-top: 20px;
+     background-color: black;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     border-radius: 100%;
+     font-size: 20px;
+      color: aliceblue;
+      border: 5px solid aliceblue;
+      gap: 10px;
+}
+#contact .signup i:hover{
+    background-color: darkgoldenrod;
+    border: 5px solid darkred;
+}      
+#contact .signup h1{
+    font-size: 30px;
+    transition: all 3s ease;
+    color: #f70707;
+}
+#contact .signup h1:hover{
+    color: rgb(251, 248, 247);
+}
+#contact .signup a{
+    /* text-decoration: none; */
+    color: aliceblue;
+    font-size: 20px;
+}
+#inp{
+    display: none;
+} 
+ #bars{
+    display: none;
+}
+/*<!--=======================[FOOTER end HERE]==============-->*/
+/*===============[MEDIA QUERY STARTS HERE]===========*/
+@media (max-width:450px){
+    #heading nav #container  ul {
+        display: none;
+    }
+    #inp:checked~  #heading nav #container  ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 12%;
+        right:7%;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: aliceblue;
+        /* line-height: 5%; */
+        z-index: 5;
+    }
+    #bars{
+        display: block;
+        position: absolute;
+        top: 3%;
+        right: 9%;
+        font-size: 35px;
+        color: aliceblue;
+        /* z-index: 50; */
+    }
+    #heading nav #container ul a{
+        color: #000000;
+        gap: 5px;
+        font-size: 20px;
+    }
+    #container h2{
+       
+        font-weight: bold;
+        text-decoration: underline;
+        width: 90px;
+        height: 90px;
+        border: 5px dashed rgb(229, 232, 234);
+        border-radius: 50%;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-size: 20px;
+        color: rgb(235, 233, 228);
+        transition: all 3s ease-in-out;
+    }
+
+    #container h2:hover{
+        color: rgb(191, 165, 36);
+        transform: rotate(360deg);
+        border-radius: 100px;
+        font-size: 20px;
+    }
+    #container input{
+        display: none;
+    }
+    #container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background: black; 
+    }
+    /*------------==================================first section starts here===================================================-->*/
+    #ret{
+        flex-wrap: wrap; 
+        /* justify-content: center;  */
+        position:absolute;
+        top: 7rem;
+        width: 60%;
+        left: 4rem;
+        z-index: 3;
+        text-align: center;
+    }
+    #ret h1{
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 3rem;
+     }
+     #ret h1 span{
+         color: darkgoldenrod;
+     }
+     #ret h2{
+         margin-top: 30px;
+     }
+     #ret h2 a{
+         color: aliceblue;
+         font-weight: bold;
+         font-size: 2rem;
+         text-decoration: none;
+        
+      }
+      #ret h2 a:hover{
+         color: rgb(247, 6, 6);
+         text-decoration: underline;
+     }
+      #ret h2 span{
+          color: rgb(250, 23, 7);
+          font-size: 2rem;
+     }
+     /*==========================================================================thirdsection==================================*/
+#ourcar{
+    width: 100%;
+    /* height: auto; */
+    background: #131212;
+    border: 1px solid rgb(7, 7, 7);
+    padding: 2rem;
+}
+.car{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+   
+}
+.car div{
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    margin-top: 130px;
+    flex-wrap: wrap;
+}
+.car div img{
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+   
+}
+
+.car div h1{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+/*================================================fourth section==============================================================================*/
+    /*------------================================================================================================---*/
+    #choose{
+        width: 100%;
+        height: auto;
+        background: #111010;
+        border: 1px solid black;
+        color: aliceblue;
+        flex-wrap: wrap;
+        padding: 2rem;
+        
+    }
+    #choose div h3{
+        margin-top: 200px;
+    }
+    
+    #choose h1{
+        font-size: 40px;
+    }
+    #options{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        background: #161515;
+        box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
+        flex-direction: column;
+    }
+    #options div{
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+        flex-direction: column;
+    }
+    #options .text{
+        /* margin-top: 70px; */
+        font-weight: bold;
+        font-size: 1.2em;
+        /* padding: 2rem; */
+       
+    } 
+    #options .text2{
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-top: 30rem;
+    }
+    
+    #options .text h2 img{
+        width: 40px;
+        height: 40px;
+    }
+    .img1{
+        position: absolute;
+        width: 80%;
+        border-radius: 180px;
+        object-fit: cover;
+        border:5px outset aliceblue;
+        margin-right: 80px;
+       
+        
+    }
+    .img2{
+        width: 100%;
+        border-top-right-radius: 60px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 60px;
+        position: absolute;
+        margin-top:70%;
+        padding: 2rem;
+        right: 1%;
+        
+    }
+    
+    /*------------==================================sixth section starts here===================================================-->*/
+#contact center input{
+        width:250PX;
+        height:7vh;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+}
+#contact .signup {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+}
+   */
 *{
     padding: 0px;
     margin: 0px;
