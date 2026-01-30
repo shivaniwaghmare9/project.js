@@ -53,15 +53,17 @@
 } 
 
 #home .box2 button{
-    
-    padding: 1rem;
-    font-size: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 1rem 2rem;
+    font-size: 20px;
     border-radius: 30px;
     background: rgb(65, 179, 224);
     color: aliceblue;
-    border: 3px solid black;
-    
+    border: 2px solid black;
+    z-index: 10;
 }
+
 #home .box2 button:hover{
     background: aliceblue;
     color: rgb(17, 17, 18);
