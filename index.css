@@ -26,6 +26,7 @@
     height: 100vh;
     object-fit: cover;
     position: absolute;
+    z-index: -1;
     
 }
 
@@ -37,14 +38,14 @@
     left: 16%;
     font-size: 1.3rem;
     color: aliceblue;
-    z-index: 10;
+    z-index: 5;
 }
 .box2 h1{
     font-size: 60px;
 } 
 
 #home .box2 button{
-    position: absolute;
+    
     padding: 1rem;
     font-size: 25px;
     border-radius: 30px;
