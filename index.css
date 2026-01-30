@@ -21,16 +21,7 @@
     height:150px;
   
 }
-#myvideo{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    
-}
-
- #home .box2{
+#home .box2{
     width: 80%;
     position: absolute;
     text-align: center;
@@ -40,6 +31,16 @@
     color: aliceblue;
     z-index: 5;
 }
+#myvideo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+ 
 .box2 h1{
     font-size: 60px;
 } 
