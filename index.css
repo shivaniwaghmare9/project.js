@@ -82,16 +82,17 @@
 @media (max-width:450px){
 
     #home .box2{
+        padding-top: 25vh;
         width: 92%;
-        left: 4%;
-        top: 22%;
     }
 
     .box2 h1{
-        font-size: 34px;
+        font-size: 32px;
     }
 
-    #home .box2 p{
-        display: none;
+    #home .box2 button{
+        font-size: 18px;
+        padding: 0.8rem 1.5rem;
     }
 }
+
