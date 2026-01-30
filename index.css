@@ -61,6 +61,7 @@
 @media (max-width:450px){
     #home .box2 p{
         display: none;
+        background-color: black;
     }
     #myvideo{
         width: 100%;
