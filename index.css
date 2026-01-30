@@ -26,14 +26,15 @@
 }
 #home .box2{
     width: 80%;
-    position: absolute;
+    position: relative;   /* ❗ absolute hatao */
+    margin: 0 auto;
+    padding-top: 30vh;    /* hero center */
     text-align: center;
-    top: 30%;
-    left: 16%;
     font-size: 1.3rem;
     color: aliceblue;
     z-index: 5;
 }
+
 #myvideo{
     position: absolute;
     top: 0;
