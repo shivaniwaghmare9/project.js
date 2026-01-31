@@ -211,6 +211,5 @@ let CON=()=>{
       
        location.href="login.html"
        return false;
-       
   }
 
