@@ -48,7 +48,6 @@ h2{
     pointer-events: none;
     transition: .5s;
 }
-
 .inp input:focus~label,
 .inp input:valid~label{
     top: -5px;
