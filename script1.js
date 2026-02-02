@@ -202,7 +202,6 @@ let CON=()=>{
       errnumber.style.color="red"
       return false;
    }
-  
       localStorage.setItem("name",inpname)
       localStorage.setItem("number",inpnumber)
       localStorage.setItem("email",inpemail)
