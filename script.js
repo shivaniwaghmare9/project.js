@@ -57,7 +57,7 @@ let sing=()=>{
    location.href="form.html"
 }
 
- let view=()=>{
+let view=()=>{
    // location.href="form.html";
    Swal.fire({
       icon: "success",
