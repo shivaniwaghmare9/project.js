@@ -1,8 +1,4 @@
 
-
-
-
-  
 let clickme=()=>{
     let display1=document.querySelector("#show")
     if(display1.style.display==='none'){
